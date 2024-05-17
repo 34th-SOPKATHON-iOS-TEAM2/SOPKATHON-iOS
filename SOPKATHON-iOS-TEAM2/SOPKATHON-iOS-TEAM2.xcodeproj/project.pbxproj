@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF99AFF72BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */; };
+		AF99AFF82BF7C43F004CC4D1 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */; };
+		AF99AFF92BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */; };
+		AF99AFFA2BF7C43F004CC4D1 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */; };
+		AF99AFFB2BF7C43F004CC4D1 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */; };
+		AF99AFFC2BF7C43F004CC4D1 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */; };
+		AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */; };
+		AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */; };
+		AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */; };
+		AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */; };
+		AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */; };
+		AFD35A632BF51DB700354EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A622BF51DB700354EE5 /* ViewController.swift */; };
+		AFD35A662BF51DB700354EE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFD35A652BF51DB700354EE5 /* Base */; };
+		AFD35A682BF51DBC00354EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD35A672BF51DBC00354EE5 /* Assets.xcassets */; };
+		AFD35A6B2BF51DBC00354EE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFD35A6A2BF51DBC00354EE5 /* Base */; };
+		AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A7D2BF51F5F00354EE5 /* MockFonts.swift */; };
+		AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A7F2BF51F6400354EE5 /* MockImages.swift */; };
+		AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A812BF51F6800354EE5 /* MockColors.swift */; };
+		AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A872BF51F7900354EE5 /* MockModel.swift */; };
+		AFD35A8E2BF5202200354EE5 /* APITarget+Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A8D2BF5202200354EE5 /* APITarget+Namespace.swift */; };
+		AFD35A902BF5204E00354EE5 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */; };
+		AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A912BF5206C00354EE5 /* MockResponse.swift */; };
+		AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A932BF5207000354EE5 /* MockRequest.swift */; };
+		AFD35A962BF5207F00354EE5 /* DTO+Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A952BF5207F00354EE5 /* DTO+Namespace.swift */; };
+		AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA12BF525C200354EE5 /* SnapKit */; };
+		AFD35AA42BF525C200354EE5 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA32BF525C200354EE5 /* SnapKit-Dynamic */; };
+		AFD35AA72BF5260800354EE5 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA62BF5260800354EE5 /* Then */; };
+		AFD35AAA2BF5263800354EE5 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA92BF5263800354EE5 /* LookinServer */; };
+		AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AAB2BF526D700354EE5 /* Config.swift */; };
+		AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */; };
+		AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AB12BF5270700354EE5 /* NetworkResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Black.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Black.otf"; sourceTree = "<group>"; };
+		AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
+		AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPKATHON-iOS-TEAM2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFD35A622BF51DB700354EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFD35A652BF51DB700354EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFD35A672BF51DBC00354EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD35A6A2BF51DBC00354EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD35A6C2BF51DBC00354EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD35A7D2BF51F5F00354EE5 /* MockFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFonts.swift; sourceTree = "<group>"; };
+		AFD35A7F2BF51F6400354EE5 /* MockImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImages.swift; sourceTree = "<group>"; };
+		AFD35A812BF51F6800354EE5 /* MockColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockColors.swift; sourceTree = "<group>"; };
+		AFD35A872BF51F7900354EE5 /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
+		AFD35A8D2BF5202200354EE5 /* APITarget+Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Namespace.swift"; sourceTree = "<group>"; };
+		AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		AFD35A912BF5206C00354EE5 /* MockResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResponse.swift; sourceTree = "<group>"; };
+		AFD35A932BF5207000354EE5 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
+		AFD35A952BF5207F00354EE5 /* DTO+Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+Namespace.swift"; sourceTree = "<group>"; };
+		AFD35AAB2BF526D700354EE5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLogginPlugin.swift; sourceTree = "<group>"; };
+		AFD35AB12BF5270700354EE5 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD35A582BF51DB700354EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */,
+				AFD35AA72BF5260800354EE5 /* Then in Frameworks */,
+				AFD35AA42BF525C200354EE5 /* SnapKit-Dynamic in Frameworks */,
+				AFD35AAA2BF5263800354EE5 /* LookinServer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF99AFED2BF7C427004CC4D1 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */,
+				AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */,
+				AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */,
+				AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */,
+				AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */,
+				AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */,
+				AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */,
+				AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */,
+				AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		AFD35A522BF51DB700354EE5 = {
+			isa = PBXGroup;
+			children = (
+				AFD35A5D2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */,
+				AFD35A5C2BF51DB700354EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD35A5C2BF51DB700354EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD35A5D2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A722BF51E0A00354EE5 /* Application */,
+				AFD35A7C2BF51E8C00354EE5 /* Network */,
+				AFD35A762BF51E2300354EE5 /* Common */,
+				AFD35A752BF51E1E00354EE5 /* ViewController */,
+				AFD35A732BF51E1600354EE5 /* Model */,
+			);
+			path = "SOPKATHON-iOS-TEAM2";
+			sourceTree = "<group>";
+		};
+		AFD35A722BF51E0A00354EE5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */,
+				AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */,
+				AFD35A642BF51DB700354EE5 /* Main.storyboard */,
+				AFD35A692BF51DBC00354EE5 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AFD35A732BF51E1600354EE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A872BF51F7900354EE5 /* MockModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AFD35A752BF51E1E00354EE5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A622BF51DB700354EE5 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AFD35A762BF51E2300354EE5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A782BF51E6100354EE5 /* Resources */,
+				AFD35A772BF51E3600354EE5 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AFD35A772BF51E3600354EE5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AFD35A782BF51E6100354EE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A6C2BF51DBC00354EE5 /* Info.plist */,
+				AFD35A7B2BF51E7300354EE5 /* Fonts */,
+				AFD35A7A2BF51E7000354EE5 /* Images */,
+				AFD35A792BF51E6C00354EE5 /* Colors */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFD35A792BF51E6C00354EE5 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A812BF51F6800354EE5 /* MockColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		AFD35A7A2BF51E7000354EE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A672BF51DBC00354EE5 /* Assets.xcassets */,
+				AFD35A7F2BF51F6400354EE5 /* MockImages.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AFD35A7B2BF51E7300354EE5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF99AFED2BF7C427004CC4D1 /* Files */,
+				AFD35A7D2BF51F5F00354EE5 /* MockFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AFD35A7C2BF51E8C00354EE5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A8A2BF5200300354EE5 /* DTO */,
+				AFD35A892BF5200000354EE5 /* API */,
+				AFD35AAB2BF526D700354EE5 /* Config.swift */,
+				AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */,
+				AFD35AB12BF5270700354EE5 /* NetworkResult.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AFD35A892BF5200000354EE5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A8D2BF5202200354EE5 /* APITarget+Namespace.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AFD35A8A2BF5200300354EE5 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A952BF5207F00354EE5 /* DTO+Namespace.swift */,
+				AFD35A8C2BF5201700354EE5 /* Response */,
+				AFD35A8B2BF5201400354EE5 /* Request */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		AFD35A8B2BF5201400354EE5 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A932BF5207000354EE5 /* MockRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		AFD35A8C2BF5201700354EE5 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AFD35A912BF5206C00354EE5 /* MockResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD35A5A2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD35A6F2BF51DBC00354EE5 /* Build configuration list for PBXNativeTarget "SOPKATHON-iOS-TEAM2" */;
+			buildPhases = (
+				AFD35A572BF51DB700354EE5 /* Sources */,
+				AFD35A582BF51DB700354EE5 /* Frameworks */,
+				AFD35A592BF51DB700354EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SOPKATHON-iOS-TEAM2";
+			packageProductDependencies = (
+				AFD35AA12BF525C200354EE5 /* SnapKit */,
+				AFD35AA32BF525C200354EE5 /* SnapKit-Dynamic */,
+				AFD35AA62BF5260800354EE5 /* Then */,
+				AFD35AA92BF5263800354EE5 /* LookinServer */,
+			);
+			productName = "SOPKATHON-iOS-TEAM2";
+			productReference = AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD35A532BF51DB700354EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AFD35A5A2BF51DB700354EE5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AFD35A562BF51DB700354EE5 /* Build configuration list for PBXProject "SOPKATHON-iOS-TEAM2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD35A522BF51DB700354EE5;
+			packageReferences = (
+				AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */,
+				AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */,
+				AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */,
+			);
+			productRefGroup = AFD35A5C2BF51DB700354EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD35A5A2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD35A592BF51DB700354EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD35A682BF51DBC00354EE5 /* Assets.xcassets in Resources */,
+				AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */,
+				AF99AFF82BF7C43F004CC4D1 /* Pretendard-Thin.otf in Resources */,
+				AF99AFF92BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf in Resources */,
+				AF99AFFB2BF7C43F004CC4D1 /* Pretendard-SemiBold.otf in Resources */,
+				AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */,
+				AF99AFFC2BF7C43F004CC4D1 /* Pretendard-Black.otf in Resources */,
+				AFD35A6B2BF51DBC00354EE5 /* Base in Resources */,
+				AF99AFFA2BF7C43F004CC4D1 /* Pretendard-Regular.otf in Resources */,
+				AF99AFF72BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf in Resources */,
+				AFD35A662BF51DB700354EE5 /* Base in Resources */,
+				AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD35A572BF51DB700354EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD35A632BF51DB700354EE5 /* ViewController.swift in Sources */,
+				AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */,
+				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
+				AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */,
+				AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */,
+				AFD35A8E2BF5202200354EE5 /* APITarget+Namespace.swift in Sources */,
+				AFD35A902BF5204E00354EE5 /* UIColor+.swift in Sources */,
+				AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */,
+				AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */,
+				AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */,
+				AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */,
+				AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */,
+				AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */,
+				AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */,
+				AFD35A962BF5207F00354EE5 /* DTO+Namespace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFD35A642BF51DB700354EE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD35A652BF51DB700354EE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD35A692BF51DBC00354EE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD35A6A2BF51DBC00354EE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD35A6D2BF51DBC00354EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFD35A6E2BF51DBC00354EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD35A702BF51DBC00354EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R3N359429;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kozi.SOPKATHON-iOS-TEAM2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFD35A712BF51DBC00354EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R3N359429;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kozi.SOPKATHON-iOS-TEAM2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD35A562BF51DB700354EE5 /* Build configuration list for PBXProject "SOPKATHON-iOS-TEAM2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD35A6D2BF51DBC00354EE5 /* Debug */,
+				AFD35A6E2BF51DBC00354EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD35A6F2BF51DBC00354EE5 /* Build configuration list for PBXNativeTarget "SOPKATHON-iOS-TEAM2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD35A702BF51DBC00354EE5 /* Debug */,
+				AFD35A712BF51DBC00354EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFD35AA12BF525C200354EE5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AFD35AA32BF525C200354EE5 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		AFD35AA62BF5260800354EE5 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		AFD35AA92BF5263800354EE5 /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AFD35A532BF51DB700354EE5 /* Project object */;
+}
