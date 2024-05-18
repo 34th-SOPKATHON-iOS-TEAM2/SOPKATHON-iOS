@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct GetCorrectInfoResponse: Codable {
+        let status: Int
+        let data: [CorrectInfo]
+    }
+}
+
+extension DTO.GetCorrectInfoResponse {
+    struct CorrectInfo: Codable {
+        let questionId: Int
+        let question: String
+        let isCorrect: Bool
+    }
+}

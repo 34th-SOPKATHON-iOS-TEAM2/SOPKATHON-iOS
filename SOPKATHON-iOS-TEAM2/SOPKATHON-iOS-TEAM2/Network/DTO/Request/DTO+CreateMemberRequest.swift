@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct CreateMemberRequest: Codable {
+        let name: String
+    }
+}

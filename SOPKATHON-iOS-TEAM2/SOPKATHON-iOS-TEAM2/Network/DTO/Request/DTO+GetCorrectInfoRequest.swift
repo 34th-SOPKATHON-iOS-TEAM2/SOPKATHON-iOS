@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct GetCorrectInfoRequest: Codable {
+        let memberId: Int
+        let date: String
+    }
+}

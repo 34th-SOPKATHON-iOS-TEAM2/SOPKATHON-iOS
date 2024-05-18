@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct GetRecordListResponse: Codable {
+        let status: Int
+    }
+}
+
+extension DTO.GetRecordListResponse {
+    struct RecordList: Codable {
+        let date: String
+        let pass: Bool
+    }
+}

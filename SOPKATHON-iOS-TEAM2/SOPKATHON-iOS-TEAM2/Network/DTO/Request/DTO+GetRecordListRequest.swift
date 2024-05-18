@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct GetRecordListRequest: Codable {
+        let memberId: Int
+    }
+}

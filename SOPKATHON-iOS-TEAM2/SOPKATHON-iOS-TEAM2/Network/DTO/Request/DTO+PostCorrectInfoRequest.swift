@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct PostCorrectInfoRequest: Codable {
+        let questionId: Int
+        let isCorrect: Bool
+    }
+}

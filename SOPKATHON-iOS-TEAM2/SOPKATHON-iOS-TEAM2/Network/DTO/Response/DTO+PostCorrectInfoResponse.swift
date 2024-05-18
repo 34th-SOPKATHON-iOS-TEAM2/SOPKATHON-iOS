@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct PostCorrectInfoResponse: Codable {
+        let status: Int
+    }
+}

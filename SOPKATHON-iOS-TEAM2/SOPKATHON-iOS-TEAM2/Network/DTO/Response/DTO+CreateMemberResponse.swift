@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct CreateMemberResponse: Codable {
+        let status: Int
+    }
+}
+
+extension DTO.CreateMemberResponse {
+    struct MemberInfo: Codable {
+        let created: Bool
+        let memberId: Int
+        let name: String
+    }
+}

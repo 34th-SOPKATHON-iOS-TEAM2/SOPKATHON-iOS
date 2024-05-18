@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct GetQuestionDescriptionRequest: Codable {
+        let memberId: Int
+        let questionId: Int
+    }
+}

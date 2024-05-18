@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+extension DTO {
+    struct GetDetailQuestionRequest: Codable {
+        /// Path parameter
+        let questionId: Int
+    }
+}
