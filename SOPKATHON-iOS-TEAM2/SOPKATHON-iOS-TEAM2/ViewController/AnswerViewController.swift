@@ -79,4 +79,8 @@ extension AnswerViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: 화면 전환 코드 작성
+    }
 }

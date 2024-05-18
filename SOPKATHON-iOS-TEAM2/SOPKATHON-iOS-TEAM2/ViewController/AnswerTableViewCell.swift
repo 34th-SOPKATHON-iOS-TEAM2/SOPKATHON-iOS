@@ -17,13 +17,14 @@ final class AnswerTableViewCell: UITableViewCell {
     public let isCorrect: Bool = true
     
     private let backView: UIView = UIView().then {
-        $0.backgroundColor = UIColor(hexCode: "D9D9D9")
+        $0.backgroundColor = UIColor(hexCode: "000000")
         $0.layer.cornerRadius = 30
         $0.clipsToBounds = true
     }
     
     private let wordLabel: UILabel = UILabel().then {
-        $0.font = UIFont.font(.pretendardRegular, ofSize: 20)
+        $0.textColor = .white
+        $0.font = UIFont.font(.pretendardBold, ofSize: 20)
         $0.text = "nn의 뜻은"
     }
     
@@ -39,8 +40,8 @@ final class AnswerTableViewCell: UITableViewCell {
     }
     
     private let endLabel: UILabel = UILabel().then {
-        $0.font = UIFont.font(.pretendardRegular, ofSize: 20)
-        $0.textColor = .black
+        $0.font = UIFont.font(.pretendardBold, ofSize: 20)
+        $0.textColor = .white
         $0.text = "이다."
     }
     
