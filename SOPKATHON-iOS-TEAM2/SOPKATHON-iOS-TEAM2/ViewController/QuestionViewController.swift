@@ -27,34 +27,36 @@ final class QuestionViewController: UIViewController {
     }
     
     private let titleLabel = UILabel().then {
-        $0.text = "너 이거 알아?"
+        $0.text = "이거 알아?"
         $0.font = .font(.pretendardBold, ofSize: 40)
         $0.textColor = .white
         $0.textAlignment = .left
     }
     
     private let questionView = UIView().then {
-        $0.backgroundColor = .white
+        $0.backgroundColor = UIColor.init(hexCode: "000000")
         $0.makeCornerRound(radius: 20)
     }
     
     private let upperQuestionLabel = UILabel().then {
         $0.text = "모집인원 0명은"
-        $0.font = .font(.pretendardSemiBold, ofSize: 20)
-        $0.textColor = .black
+        $0.font = .font(.pretendardSemiBold, ofSize: 24)
+        $0.textColor = .white
     }
     
     private let middleQuestionLabel = UILabel().then {
-        $0.text = " "
-        $0.font = .font(.pretendardSemiBold, ofSize: 20)
-        $0.textColor = .black
-        $0.backgroundColor = .gray02
+        $0.text = "?????"
+        $0.font = .font(.pretendardBold, ofSize: 58)
+        $0.textColor = .white
+        $0.textAlignment = .center
+        $0.backgroundColor = UIColor(hexCode: "#03A864")
+        $0.transform = CGAffineTransform(rotationAngle: -4.481 * (.pi / 360))
     }
     
     private let lowerQuestionLabel = UILabel().then {
         $0.text = "이다."
-        $0.font = .font(.pretendardSemiBold, ofSize: 20)
-        $0.textColor = .black
+        $0.font = .font(.pretendardSemiBold, ofSize: 24)
+        $0.textColor = .white
     }
 
     private let firstAnswerButton: UIButton = CustomButton(buttonText: "first Answer").then {
@@ -193,25 +195,25 @@ final class QuestionViewController: UIViewController {
             $0.leading.equalToSuperview().offset(20)
             $0.trailing.equalToSuperview().inset(20)
             $0.height.equalTo(210)
+            $0.width.equalTo(335)
         }
         
         upperQuestionLabel.snp.makeConstraints {
-            $0.top.equalToSuperview().offset(40)
-            $0.leading.equalToSuperview().offset(53)
+            $0.top.equalToSuperview().offset(26)
+            $0.leading.equalToSuperview().offset(28)
         }
         
         middleQuestionLabel.snp.makeConstraints {
-            $0.top.equalTo(upperQuestionLabel.snp.bottom).offset(14)
-            $0.leading.equalToSuperview().offset(52)
-            $0.trailing.equalToSuperview().inset(52)
-            $0.height.equalTo(50)
-            $0.width.equalTo(200)
+            $0.top.equalToSuperview().offset(65)
+            $0.leading.equalToSuperview().offset(67)
+            $0.height.equalTo(78)
+            $0.width.equalTo(195)
         }
         
         lowerQuestionLabel.snp.makeConstraints {
             $0.top.equalTo(middleQuestionLabel.snp.bottom).offset(14)
-            $0.trailing.equalToSuperview().inset(52)
-            $0.bottom.equalToSuperview().inset(40)
+            $0.trailing.equalToSuperview().inset(28)
+            $0.bottom.equalToSuperview().inset(26)
         }
         
         firstAnswerButton.snp.makeConstraints {

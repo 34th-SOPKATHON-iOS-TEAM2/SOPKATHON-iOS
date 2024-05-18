@@ -37,8 +37,9 @@ extension CustomButton {
     private func setStyle() {
         self.setTitle(buttonText, for: .normal)
         self.makeCornerRound(radius: buttonHeight/2)
+        self.backgroundColor = UIColor.init(hexCode: "000000")
         self.titleLabel?.font = .font(.pretendardRegular, ofSize: 16)
-        self.backgroundColor = UIColor(hexCode: "000000")
+        self.setTitleColor(.white, for: .normal)
     }
     
     private func setLayout() {
