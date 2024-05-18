@@ -316,6 +316,7 @@
 				AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */,
 				AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */,
+				367B146C2BF8EEA2000DBA22 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = AFD35A5C2BF51DB700354EE5 /* Products */;
 			projectDirPath = "";
@@ -595,6 +596,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		367B146C2BF8EEA2000DBA22 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
 		AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya";
