@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
+		AF99AFF72BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */; };
+		AF99AFF82BF7C43F004CC4D1 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */; };
+		AF99AFF92BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */; };
+		AF99AFFA2BF7C43F004CC4D1 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */; };
+		AF99AFFB2BF7C43F004CC4D1 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */; };
+		AF99AFFC2BF7C43F004CC4D1 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */; };
+		AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */; };
+		AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */; };
+		AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */; };
+
 		AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */; };
 		AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */; };
 		AFD35A632BF51DB700354EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A622BF51DB700354EE5 /* ViewController.swift */; };
@@ -45,6 +56,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
+		AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Black.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Black.otf"; sourceTree = "<group>"; };
+		AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
+		AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+
 		AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPKATHON-iOS-TEAM2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */,
+				367B146A2BF8EDEA000DBA22 /* Adjust.swift */,
 				DD834FBB2BF8E5B30014D066 /* UIViewController+.swift */,
 				DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */,
 				DD834FBF2BF8E5F00014D066 /* UIView+.swift */,
@@ -333,6 +356,7 @@
 				AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */,
 				AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */,
+				367B146C2BF8EEA2000DBA22 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = AFD35A5C2BF51DB700354EE5 /* Products */;
 			projectDirPath = "";
@@ -372,6 +396,7 @@
 			files = (
 				AFD35A632BF51DB700354EE5 /* ViewController.swift in Sources */,
 				AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */,
+				367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */,
 				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
 				DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */,
 				AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */,
@@ -615,6 +640,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		367B146C2BF8EEA2000DBA22 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
 		AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya";
