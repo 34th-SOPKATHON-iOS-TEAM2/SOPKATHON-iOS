@@ -46,6 +46,7 @@
 		DD834FC42BF8EFCF0014D066 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC32BF8EFCF0014D066 /* AnswerViewController.swift */; };
 		DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC52BF8F16F0014D066 /* AnswerTableViewCell.swift */; };
 		DD834FC92BF903AB0014D066 /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC82BF903AB0014D066 /* ArchiveViewController.swift */; };
+		DD834FCB2BF911B10014D066 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FCA2BF911B10014D066 /* UIFont+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		DD834FC32BF8EFCF0014D066 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		DD834FC52BF8F16F0014D066 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
 		DD834FC82BF903AB0014D066 /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
+		DD834FCA2BF911B10014D066 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */,
 				DD834FBF2BF8E5F00014D066 /* UIView+.swift */,
 				DD834FC12BF8EAAA0014D066 /* UILabel+.swift */,
+				DD834FCA2BF911B10014D066 /* UIFont+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				DD834FC92BF903AB0014D066 /* ArchiveViewController.swift in Sources */,
 				DD834FC42BF8EFCF0014D066 /* AnswerViewController.swift in Sources */,
 				AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */,
+				DD834FCB2BF911B10014D066 /* UIFont+.swift in Sources */,
 				DD834FBC2BF8E5B30014D066 /* UIViewController+.swift in Sources */,
 				AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */,
 				DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */,
