@@ -23,7 +23,7 @@ extension UIColor {
     static var gray01: UIColor {
         return UIColor(white: 102.0 / 255.0, alpha: 1.0)
     }
-    static var black: UIColor {
+    static var doBlack: UIColor {
         return UIColor(white: 34.0 / 255.0, alpha: 1.0)
     }
     static var white: UIColor {
@@ -41,10 +41,28 @@ extension UIColor {
     static var p200: UIColor {
         return UIColor(hexCode: "dfbfff")
     }
+  
+    static var doRed: UIColor {
+        return UIColor(hexCode: "FF4E00")
+    }
+    
+    static var doBule: UIColor {
+        return UIColor(hexCode: "0084FF")
+    }
+    
+    static var doGreen: UIColor {
+        return UIColor(hexCode: "03A864")
+    }
+    
+    static var doYello: UIColor {
+        return UIColor(hexCode: "FFC801")
+    }
+    
     static var dGreen: UIColor {
         return UIColor(hexCode: "03a864")
     }
     static var dRed: UIColor {
         return UIColor(hexCode: "ff4e00")
     }
+  
 }

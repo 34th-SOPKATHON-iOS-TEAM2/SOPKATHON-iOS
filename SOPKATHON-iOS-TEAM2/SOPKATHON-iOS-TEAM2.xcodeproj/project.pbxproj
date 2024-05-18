@@ -19,6 +19,16 @@
 		2EAA4B5B2BF94FE600E8F33C /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2EAA4B522BF94FE600E8F33C /* Pretendard-Black.otf */; };
 		2EAA4B5C2BF94FE600E8F33C /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2EAA4B532BF94FE600E8F33C /* Pretendard-Thin.otf */; };
 		3663C2812BF915C3004C07AC /* SolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663C2802BF915C3004C07AC /* SolvedViewController.swift */; };
+		3663C2A52BF9459E004C07AC /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C29C2BF9459E004C07AC /* Pretendard-Black.otf */; };
+		3663C2A62BF9459E004C07AC /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C29D2BF9459E004C07AC /* Pretendard-Bold.otf */; };
+		3663C2A72BF9459E004C07AC /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C29E2BF9459E004C07AC /* Pretendard-Regular.otf */; };
+		3663C2A82BF9459E004C07AC /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C29F2BF9459E004C07AC /* Pretendard-SemiBold.otf */; };
+		3663C2A92BF9459E004C07AC /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C2A02BF9459E004C07AC /* Pretendard-ExtraBold.otf */; };
+		3663C2AA2BF9459E004C07AC /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C2A12BF9459E004C07AC /* Pretendard-Light.otf */; };
+		3663C2AB2BF9459E004C07AC /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C2A22BF9459E004C07AC /* Pretendard-Medium.otf */; };
+		3663C2AC2BF9459E004C07AC /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C2A32BF9459E004C07AC /* Pretendard-ExtraLight.otf */; };
+		3663C2AD2BF9459E004C07AC /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3663C2A42BF9459E004C07AC /* Pretendard-Thin.otf */; };
+		3663C2AF2BF950AC004C07AC /* SharedInstaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663C2AE2BF950AC004C07AC /* SharedInstaView.swift */; };
 		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
 		AF2B55F42BF939B700F382A0 /* APITarget+Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55F32BF939B700F382A0 /* APITarget+Members.swift */; };
 		AF2B55FE2BF93B7800F382A0 /* APITarget+Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55FD2BF93B7800F382A0 /* APITarget+Questions.swift */; };
@@ -95,6 +105,16 @@
 		2EAA4B522BF94FE600E8F33C /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		2EAA4B532BF94FE600E8F33C /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		3663C2802BF915C3004C07AC /* SolvedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvedViewController.swift; sourceTree = "<group>"; };
+		3663C29C2BF9459E004C07AC /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Black.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-Black.otf"; sourceTree = "<group>"; };
+		3663C29D2BF9459E004C07AC /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		3663C29E2BF9459E004C07AC /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		3663C29F2BF9459E004C07AC /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		3663C2A02BF9459E004C07AC /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		3663C2A12BF9459E004C07AC /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
+		3663C2A22BF9459E004C07AC /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		3663C2A32BF9459E004C07AC /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		3663C2A42BF9459E004C07AC /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../../../../Downloads/Pretendard-1.3.9 2/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		3663C2AE2BF950AC004C07AC /* SharedInstaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedInstaView.swift; sourceTree = "<group>"; };
 		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
 		AF2B55F32BF939B700F382A0 /* APITarget+Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Members.swift"; sourceTree = "<group>"; };
 		AF2B55FD2BF93B7800F382A0 /* APITarget+Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Questions.swift"; sourceTree = "<group>"; };
@@ -272,6 +292,7 @@
 				2E559B192BF911C5000FBE89 /* QuestionViewController.swift */,
 				2E559B1B2BF9166E000FBE89 /* CustomButton.swift */,
 				3663C2802BF915C3004C07AC /* SolvedViewController.swift */,
+				3663C2AE2BF950AC004C07AC /* SharedInstaView.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -510,6 +531,7 @@
 				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
 				DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */,
 				AFD695712BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift in Sources */,
+				3663C2AF2BF950AC004C07AC /* SharedInstaView.swift in Sources */,
 				AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */,
 				AF2B56002BF93F9E00F382A0 /* APITarget+Attempts.swift in Sources */,
 				AF2B55FE2BF93B7800F382A0 /* APITarget+Questions.swift in Sources */,
