@@ -1,6 +1,6 @@
 <div align="center">
 
-  # 서비스 이름-iOS
+  # 너 이거 알아?-iOS
   
   ![서비스 배너](추가해야함)
   <br><br>
@@ -10,7 +10,12 @@
 
   <h4> 서비스 소개
   <br>
-  <h4> 주요 기능
+    문해력 부재를 가장 트렌디하게 채우자.
+
+  <h4> 주요 기능 <br>
+  1. 문해력 퀴즈: 1일 5문제 재밌는 문해력 퀴즈 풀기<br>
+2. 퀴즈 공유: 너 이거 알아? 친구에게 공유하기<br>
+3. 기록: 나의 퀴즈 기록을 확인해요!<br>
   
 </div>
 
@@ -23,7 +28,7 @@
 |[지석](https://github.com/sozohoy)|[형근](https://github.com/Chandrarla)|[지희](https://github.com/Zoe0929)|[유진](https://github.com/youz2me)|
 |:-----:|:-----:|:-----:|:-----:|
 <img width="250px" src="https://avatars.githubusercontent.com/u/49385546?v=4"/> | <img width="250px" src="https://avatars.githubusercontent.com/u/81503607?v=4"/> | <img width="250px" src="https://avatars.githubusercontent.com/u/68178395?v=4"/> | <img width="250px" src="https://avatars.githubusercontent.com/u/80394340?v=4"/> |
-|호날두|메시|홀란드|음바페|
+|홈뷰|퀴즈뷰|풀이뷰|정답 & 기록리스트|
 
 <br>
 
