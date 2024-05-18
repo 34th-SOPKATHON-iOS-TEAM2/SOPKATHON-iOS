@@ -4,8 +4,13 @@ import Then
 import SnapKit
 
 final class SolvedViewController: UIViewController {
-    let question =  "모집인원 0명"
-    let answer = "1~9명"
+    var titleText = ""
+    var question =  "모집인원 0명"
+    var answer = "1~9명" {
+        didSet{
+            answerView.set(title: question, des: answer)
+        }
+    }
     var isShared = false {
         didSet {
             setShareView()
@@ -64,6 +69,7 @@ final class SolvedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setUI()
         addTarget()
         // Do any additional setup after loading the view.
@@ -162,6 +168,15 @@ final class SolvedViewController: UIViewController {
     
     func addTarget () {
         sharedButton.addTarget(self, action: #selector(instagramButtonTapped), for: .touchUpInside)
+        backButton.addTarget(self, action: #selector(button), for: .touchUpInside)
+    }
+    
+    func bindData() {
+        titleLabel.text = titleText
+    }
+    
+    @objc func button() {
+        self.navigationController?.popViewController(animated: true)
     }
     
     @objc func instagramButtonTapped() {

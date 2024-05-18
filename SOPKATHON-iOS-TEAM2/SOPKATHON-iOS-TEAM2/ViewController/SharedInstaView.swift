@@ -64,6 +64,11 @@ final class SharedInstaView: UIView {
         setConstraints()
     }
     
+    func set(title: String, des: String){
+        questionLabel.text = title
+        answerLabel.text = des
+    }
+    
     private func setHierarchy() {
         
         self.addSubviews(questionLabel,
