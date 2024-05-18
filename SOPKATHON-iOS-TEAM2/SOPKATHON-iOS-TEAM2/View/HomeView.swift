@@ -9,50 +9,76 @@ import SwiftUI
 
 struct MainCard: Identifiable {
     let id: Int
-    let color: Color
     var isOpened: Bool
 }
 
-@available(iOS 17.0, *)
 struct HomeView: View {
 
     @State var mainCards: [MainCard] = [
-        MainCard(id: 0, color: .green, isOpened: true),
-        MainCard(id: 1, color: .blue, isOpened: false),
-        MainCard(id: 2, color: .yellow, isOpened: false)
+        MainCard(id: 0, isOpened: true),
+        MainCard(id: 1, isOpened: false),
+        MainCard(id: 2, isOpened: false)
     ]
 
-
     var body: some View {
-        VStack(spacing: 0) {
-            ScrollView {
-                card(open: $mainCards[2].isOpened, index: mainCards[2].id, color: mainCards[2].color)
-                card(open: $mainCards[1].isOpened, index: mainCards[1].id, color: mainCards[1].color)
-                card(open: $mainCards[0].isOpened, index: mainCards[0].id, color: mainCards[0].color)
+        ZStack {
+            Color(uiColor: UIColor(hexCode: "222222")).ignoresSafeArea()
+            VStack(spacing: 0) {
+                ScrollView {
+                    ForEach(mainCards.indices.reversed(), id: \.self) { index in
+                        card(index: index)
+                    }
+                }
+                .padding(.top, 120)
             }
-            .padding(.top, 120)
         }
     }
 
-    func card(open: Binding<Bool>, index: Int, color: Color) -> some View {
-        RoundedRectangle(cornerRadius: 12)
-            .frame(height: open.wrappedValue ? 360 : 80)
+    func card(index: Int) -> some View {
+        let isOpened = $mainCards[index].isOpened
+
+        return RoundedRectangle(cornerRadius: 12)
+            .frame(height: isOpened.wrappedValue ? 360 : 80)
             .padding(.horizontal, 20)
-            .foregroundStyle(color)
-            .offset(y: CGFloat(open.wrappedValue ? 0 : 20 * index))
-            .onTapGesture {
-                if index != 0 {
-                    withAnimation {
-                        open.wrappedValue.toggle()
+            .shadow(radius: 4)
+            .foregroundStyle(Color(UIColor(hexCode: "D9D9D9")))
+            .overlay {
+                if isOpened.wrappedValue {
+                    VStack {
+                        Text("너 모집인원 0명\n이거 알아?")
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 40, weight: .bold))
+                            .padding(.top, 40)
+                        Spacer()
+                        Button {
+                            /// 다음 화면으로 전환
+                        } label: {
+                            RoundedRectangle(cornerRadius: 30)
+                                .foregroundStyle(Color(uiColor: UIColor(hexCode: "535353")))
+                                .frame(width: 220, height: 46)
+                                .overlay {
+                                    Text("퀴즈 풀러 가기 CTA")
+                                        .font(.system(size: 20,
+                                                      weight: .bold))
+                                        .tint(.white)
+                                }
+                                .padding(.bottom, 40)
+                        }
                     }
+                }
+            }
+            .offset(y: CGFloat(isOpened.wrappedValue ? 0 : 20 * index))
+            .onTapGesture {
+                withAnimation {
+                    for i in mainCards.indices {
+                        mainCards[i].isOpened = false
+                    }
+                    mainCards[index].isOpened.toggle()
                 }
             }
     }
 }
 
-
-
-@available(iOS 17.0, *)
 #Preview {
     HomeView()
 }
