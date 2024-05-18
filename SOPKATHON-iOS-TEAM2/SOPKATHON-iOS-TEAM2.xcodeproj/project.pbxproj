@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6565462BF8EED4001D7D22 /* HomeView.swift */; };
+		AF99AFF72BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */; };
+		AF99AFF82BF7C43F004CC4D1 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */; };
+		AF99AFF92BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */; };
+		AF99AFFA2BF7C43F004CC4D1 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */; };
+		AF99AFFB2BF7C43F004CC4D1 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */; };
+		AF99AFFC2BF7C43F004CC4D1 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */; };
+		AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */; };
+		AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */; };
+		AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */; };
+		AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = AF99B0012BF8D59A004CC4D1 /* Moya */; };
 		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
 		AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */; };
 		AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */; };
@@ -50,6 +61,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF6565462BF8EED4001D7D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Black.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Black.otf"; sourceTree = "<group>"; };
+		AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
+		AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
 		AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPKATHON-iOS-TEAM2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +118,8 @@
 			files = (
 				AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */,
 				AFD35AA72BF5260800354EE5 /* Then in Frameworks */,
+				AFD35AA42BF525C200354EE5 /* SnapKit-Dynamic in Frameworks */,
+				AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */,
 				DD834FBA2BF8E3AA0014D066 /* Moya in Frameworks */,
 				AFD35AAA2BF5263800354EE5 /* LookinServer in Frameworks */,
 			);
@@ -105,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF6565452BF8EEC4001D7D22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF6565462BF8EED4001D7D22 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AF99AFED2BF7C427004CC4D1 /* Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,11 +152,19 @@
 			path = Files;
 			sourceTree = "<group>";
 		};
+		AF99B0002BF8D59A004CC4D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AFD35A522BF51DB700354EE5 = {
 			isa = PBXGroup;
 			children = (
 				AFD35A5D2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */,
 				AFD35A5C2BF51DB700354EE5 /* Products */,
+				AF99B0002BF8D59A004CC4D1 /* Frameworks */,
 				DD834FB82BF8E3AA0014D066 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -144,6 +183,7 @@
 				AFD35A722BF51E0A00354EE5 /* Application */,
 				AFD35A7C2BF51E8C00354EE5 /* Network */,
 				AFD35A762BF51E2300354EE5 /* Common */,
+				AF6565452BF8EEC4001D7D22 /* View */,
 				AFD35A752BF51E1E00354EE5 /* ViewController */,
 				AFD35A732BF51E1600354EE5 /* Model */,
 			);
@@ -313,6 +353,7 @@
 				AFD35AA12BF525C200354EE5 /* SnapKit */,
 				AFD35AA62BF5260800354EE5 /* Then */,
 				AFD35AA92BF5263800354EE5 /* LookinServer */,
+				AF99B0012BF8D59A004CC4D1 /* Moya */,
 				DD834FB92BF8E3AA0014D066 /* Moya */,
 			);
 			productName = "SOPKATHON-iOS-TEAM2";
@@ -408,6 +449,7 @@
 				DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */,
 				AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */,
 				AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */,
+				AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */,
 				AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */,
 				AFD35A962BF5207F00354EE5 /* DTO+Namespace.swift in Sources */,
 			);
@@ -679,6 +721,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AF99B0012BF8D59A004CC4D1 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
 		AFD35AA12BF525C200354EE5 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */;
