@@ -18,8 +18,8 @@ final class CustomButton: UIButton {
     
     init(buttonText: String) {
         super.init(frame: .zero)
-        self.buttonText = buttonText
         setUI()
+        self.buttonText = buttonText
     }
     
     required init?(coder: NSCoder) {
@@ -37,9 +37,9 @@ extension CustomButton {
     private func setStyle() {
         self.setTitle(buttonText, for: .normal)
         self.makeCornerRound(radius: buttonHeight/2)
-        self.backgroundColor = .white
+        self.backgroundColor = UIColor.init(hexCode: "000000")
         self.titleLabel?.font = .font(.pretendardRegular, ofSize: 16)
-        self.setTitleColor(.black, for: .normal)
+        self.setTitleColor(.white, for: .normal)
     }
     
     private func setLayout() {
@@ -47,5 +47,5 @@ extension CustomButton {
             $0.height.equalTo(buttonHeight)
         }
     }
-
+    
 }
