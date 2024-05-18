@@ -14,6 +14,7 @@ final class AnswerViewController: UIViewController {
     
     private lazy var answerTableView: UITableView = UITableView().then {
         $0.backgroundColor = .black
+        $0.estimatedRowHeight = UITableView.automaticDimension
     }
     
 
@@ -51,12 +52,13 @@ final class AnswerViewController: UIViewController {
 
 extension AnswerViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: AnswerTableViewCell.identifier, for: indexPath) as? AnswerTableViewCell else { return UITableViewCell() }
         
+        // cell.dataBind(<#T##data: Data##Data#>)
         
         return cell
     }
