@@ -7,16 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
 		AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6565462BF8EED4001D7D22 /* HomeView.swift */; };
-		AF99AFF72BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */; };
-		AF99AFF82BF7C43F004CC4D1 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */; };
-		AF99AFF92BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */; };
-		AF99AFFA2BF7C43F004CC4D1 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */; };
-		AF99AFFB2BF7C43F004CC4D1 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */; };
-		AF99AFFC2BF7C43F004CC4D1 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */; };
-		AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */; };
-		AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */; };
-		AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */; };
 		AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = AF99B0012BF8D59A004CC4D1 /* Moya */; };
 		2E559B1A2BF911C5000FBE89 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E559B192BF911C5000FBE89 /* QuestionViewController.swift */; };
 		2E559B1C2BF9166F000FBE89 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E559B1B2BF9166E000FBE89 /* CustomButton.swift */; };
@@ -29,12 +21,10 @@
 		AFD35A6B2BF51DBC00354EE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFD35A6A2BF51DBC00354EE5 /* Base */; };
 		AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A7D2BF51F5F00354EE5 /* MockFonts.swift */; };
 		AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A7F2BF51F6400354EE5 /* MockImages.swift */; };
-		AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A812BF51F6800354EE5 /* MockColors.swift */; };
+		AFD35A822BF51F6800354EE5 /* DoYouKnowThisColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A812BF51F6800354EE5 /* DoYouKnowThisColors.swift */; };
 		AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A872BF51F7900354EE5 /* MockModel.swift */; };
 		AFD35A8E2BF5202200354EE5 /* APITarget+Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A8D2BF5202200354EE5 /* APITarget+Namespace.swift */; };
 		AFD35A902BF5204E00354EE5 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */; };
-		AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A912BF5206C00354EE5 /* MockResponse.swift */; };
-		AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A932BF5207000354EE5 /* MockRequest.swift */; };
 		AFD35A962BF5207F00354EE5 /* DTO+Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A952BF5207F00354EE5 /* DTO+Namespace.swift */; };
 		AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA12BF525C200354EE5 /* SnapKit */; };
 		AFD35AA72BF5260800354EE5 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA62BF5260800354EE5 /* Then */; };
@@ -42,15 +32,30 @@
 		AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AAB2BF526D700354EE5 /* Config.swift */; };
 		AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */; };
 		AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AB12BF5270700354EE5 /* NetworkResult.swift */; };
-		DD834FAF2BF8E3920014D066 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA62BF8E3920014D066 /* Pretendard-Bold.otf */; };
-		DD834FB02BF8E3920014D066 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA72BF8E3920014D066 /* Pretendard-ExtraLight.otf */; };
-		DD834FB12BF8E3920014D066 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA82BF8E3920014D066 /* Pretendard-Medium.otf */; };
-		DD834FB22BF8E3920014D066 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA92BF8E3920014D066 /* Pretendard-Regular.otf */; };
-		DD834FB32BF8E3920014D066 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAA2BF8E3920014D066 /* Pretendard-Black.otf */; };
-		DD834FB42BF8E3920014D066 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAB2BF8E3920014D066 /* Pretendard-SemiBold.otf */; };
-		DD834FB52BF8E3920014D066 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAC2BF8E3920014D066 /* Pretendard-ExtraBold.otf */; };
-		DD834FB62BF8E3920014D066 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAD2BF8E3920014D066 /* Pretendard-Thin.otf */; };
-		DD834FB72BF8E3920014D066 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAE2BF8E3920014D066 /* Pretendard-Light.otf */; };
+		AFD695712BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695702BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift */; };
+		AFD695732BF92F8000FADE46 /* DTO+GetQuestionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695722BF92F8000FADE46 /* DTO+GetQuestionsRequest.swift */; };
+		AFD695752BF9301E00FADE46 /* DTO+GetDetailQuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695742BF9301E00FADE46 /* DTO+GetDetailQuestionRequest.swift */; };
+		AFD695772BF9306700FADE46 /* DTO+GetDetailQuestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695762BF9306700FADE46 /* DTO+GetDetailQuestionResponse.swift */; };
+		AFD695792BF931DB00FADE46 /* DTO+PostCorrectInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695782BF931DB00FADE46 /* DTO+PostCorrectInfoResponse.swift */; };
+		AFD6957B2BF931E600FADE46 /* DTO+PostCorrectInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6957A2BF931E600FADE46 /* DTO+PostCorrectInfoRequest.swift */; };
+		AFD6957D2BF9325C00FADE46 /* DTO+GetCorrectInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6957C2BF9325C00FADE46 /* DTO+GetCorrectInfoResponse.swift */; };
+		AFD6957F2BF932EA00FADE46 /* DTO+GetCorrectInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6957E2BF932EA00FADE46 /* DTO+GetCorrectInfoRequest.swift */; };
+		AFD695812BF9334700FADE46 /* DTO+GetQuestionDescriptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695802BF9334700FADE46 /* DTO+GetQuestionDescriptionResponse.swift */; };
+		AFD695832BF933D100FADE46 /* DTO+GetQuestionDescriptionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695822BF933D100FADE46 /* DTO+GetQuestionDescriptionRequest.swift */; };
+		AFD695852BF9342300FADE46 /* DTO+GetRecordListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695842BF9342300FADE46 /* DTO+GetRecordListResponse.swift */; };
+		AFD695872BF9347300FADE46 /* DTO+GetRecordListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695862BF9347300FADE46 /* DTO+GetRecordListRequest.swift */; };
+		AFD695892BF9349900FADE46 /* DTO+CreateMemberResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD695882BF9349900FADE46 /* DTO+CreateMemberResponse.swift */; };
+		AFD6958B2BF9353A00FADE46 /* DTO+CreateMemberRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6958A2BF9353A00FADE46 /* DTO+CreateMemberRequest.swift */; };
+		AFD695952BF9358A00FADE46 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD6958C2BF9358A00FADE46 /* Pretendard-SemiBold.otf */; };
+		AFD695962BF9358A00FADE46 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD6958D2BF9358A00FADE46 /* Pretendard-Regular.otf */; };
+		AFD695972BF9358A00FADE46 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD6958E2BF9358A00FADE46 /* Pretendard-Thin.otf */; };
+		AFD695982BF9358A00FADE46 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD6958F2BF9358A00FADE46 /* Pretendard-Black.otf */; };
+		AFD695992BF9358A00FADE46 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD695902BF9358A00FADE46 /* Pretendard-Medium.otf */; };
+		AFD6959A2BF9358A00FADE46 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD695912BF9358A00FADE46 /* Pretendard-ExtraLight.otf */; };
+		AFD6959B2BF9358A00FADE46 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD695922BF9358A00FADE46 /* Pretendard-Light.otf */; };
+		AFD6959C2BF9358A00FADE46 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD695932BF9358A00FADE46 /* Pretendard-ExtraBold.otf */; };
+		AFD6959D2BF9358A00FADE46 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFD695942BF9358A00FADE46 /* Pretendard-Bold.otf */; };
+		AFFE604C2BF92A9E0086A6BE /* slowFonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFE604B2BF92A9E0086A6BE /* slowFonts.ttf */; };
 		DD834FBA2BF8E3AA0014D066 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DD834FB92BF8E3AA0014D066 /* Moya */; };
 		DD834FBC2BF8E5B30014D066 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBB2BF8E5B30014D066 /* UIViewController+.swift */; };
 		DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */; };
@@ -63,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
 		AF6565462BF8EED4001D7D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
 		AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
@@ -86,25 +92,38 @@
 		AFD35A6C2BF51DBC00354EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD35A7D2BF51F5F00354EE5 /* MockFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFonts.swift; sourceTree = "<group>"; };
 		AFD35A7F2BF51F6400354EE5 /* MockImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImages.swift; sourceTree = "<group>"; };
-		AFD35A812BF51F6800354EE5 /* MockColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockColors.swift; sourceTree = "<group>"; };
+		AFD35A812BF51F6800354EE5 /* DoYouKnowThisColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouKnowThisColors.swift; sourceTree = "<group>"; };
 		AFD35A872BF51F7900354EE5 /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
 		AFD35A8D2BF5202200354EE5 /* APITarget+Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Namespace.swift"; sourceTree = "<group>"; };
 		AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
-		AFD35A912BF5206C00354EE5 /* MockResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResponse.swift; sourceTree = "<group>"; };
-		AFD35A932BF5207000354EE5 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
 		AFD35A952BF5207F00354EE5 /* DTO+Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+Namespace.swift"; sourceTree = "<group>"; };
 		AFD35AAB2BF526D700354EE5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLogginPlugin.swift; sourceTree = "<group>"; };
 		AFD35AB12BF5270700354EE5 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
-		DD834FA62BF8E3920014D066 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
-		DD834FA72BF8E3920014D066 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
-		DD834FA82BF8E3920014D066 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
-		DD834FA92BF8E3920014D066 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
-		DD834FAA2BF8E3920014D066 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
-		DD834FAB2BF8E3920014D066 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
-		DD834FAC2BF8E3920014D066 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
-		DD834FAD2BF8E3920014D066 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
-		DD834FAE2BF8E3920014D066 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		AFD695702BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetQuestionsResponse.swift"; sourceTree = "<group>"; };
+		AFD695722BF92F8000FADE46 /* DTO+GetQuestionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetQuestionsRequest.swift"; sourceTree = "<group>"; };
+		AFD695742BF9301E00FADE46 /* DTO+GetDetailQuestionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetDetailQuestionRequest.swift"; sourceTree = "<group>"; };
+		AFD695762BF9306700FADE46 /* DTO+GetDetailQuestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetDetailQuestionResponse.swift"; sourceTree = "<group>"; };
+		AFD695782BF931DB00FADE46 /* DTO+PostCorrectInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+PostCorrectInfoResponse.swift"; sourceTree = "<group>"; };
+		AFD6957A2BF931E600FADE46 /* DTO+PostCorrectInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+PostCorrectInfoRequest.swift"; sourceTree = "<group>"; };
+		AFD6957C2BF9325C00FADE46 /* DTO+GetCorrectInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetCorrectInfoResponse.swift"; sourceTree = "<group>"; };
+		AFD6957E2BF932EA00FADE46 /* DTO+GetCorrectInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetCorrectInfoRequest.swift"; sourceTree = "<group>"; };
+		AFD695802BF9334700FADE46 /* DTO+GetQuestionDescriptionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetQuestionDescriptionResponse.swift"; sourceTree = "<group>"; };
+		AFD695822BF933D100FADE46 /* DTO+GetQuestionDescriptionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetQuestionDescriptionRequest.swift"; sourceTree = "<group>"; };
+		AFD695842BF9342300FADE46 /* DTO+GetRecordListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetRecordListResponse.swift"; sourceTree = "<group>"; };
+		AFD695862BF9347300FADE46 /* DTO+GetRecordListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+GetRecordListRequest.swift"; sourceTree = "<group>"; };
+		AFD695882BF9349900FADE46 /* DTO+CreateMemberResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+CreateMemberResponse.swift"; sourceTree = "<group>"; };
+		AFD6958A2BF9353A00FADE46 /* DTO+CreateMemberRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DTO+CreateMemberRequest.swift"; sourceTree = "<group>"; };
+		AFD6958C2BF9358A00FADE46 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		AFD6958D2BF9358A00FADE46 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		AFD6958E2BF9358A00FADE46 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		AFD6958F2BF9358A00FADE46 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Black.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Black.otf"; sourceTree = "<group>"; };
+		AFD695902BF9358A00FADE46 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		AFD695912BF9358A00FADE46 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		AFD695922BF9358A00FADE46 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
+		AFD695932BF9358A00FADE46 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		AFD695942BF9358A00FADE46 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		AFFE604B2BF92A9E0086A6BE /* slowFonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = slowFonts.ttf; sourceTree = "<group>"; };
 		DD834FBB2BF8E5B30014D066 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		DD834FBF2BF8E5F00014D066 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
@@ -122,7 +141,6 @@
 			files = (
 				AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */,
 				AFD35AA72BF5260800354EE5 /* Then in Frameworks */,
-				AFD35AA42BF525C200354EE5 /* SnapKit-Dynamic in Frameworks */,
 				AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */,
 				DD834FBA2BF8E3AA0014D066 /* Moya in Frameworks */,
 				AFD35AAA2BF5263800354EE5 /* LookinServer in Frameworks */,
@@ -143,15 +161,16 @@
 		AF99AFED2BF7C427004CC4D1 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD834FAA2BF8E3920014D066 /* Pretendard-Black.otf */,
-				DD834FA62BF8E3920014D066 /* Pretendard-Bold.otf */,
-				DD834FAC2BF8E3920014D066 /* Pretendard-ExtraBold.otf */,
-				DD834FA72BF8E3920014D066 /* Pretendard-ExtraLight.otf */,
-				DD834FAE2BF8E3920014D066 /* Pretendard-Light.otf */,
-				DD834FA82BF8E3920014D066 /* Pretendard-Medium.otf */,
-				DD834FA92BF8E3920014D066 /* Pretendard-Regular.otf */,
-				DD834FAB2BF8E3920014D066 /* Pretendard-SemiBold.otf */,
-				DD834FAD2BF8E3920014D066 /* Pretendard-Thin.otf */,
+				AFFE604B2BF92A9E0086A6BE /* slowFonts.ttf */,
+				AFD6958F2BF9358A00FADE46 /* Pretendard-Black.otf */,
+				AFD695942BF9358A00FADE46 /* Pretendard-Bold.otf */,
+				AFD695932BF9358A00FADE46 /* Pretendard-ExtraBold.otf */,
+				AFD695912BF9358A00FADE46 /* Pretendard-ExtraLight.otf */,
+				AFD695922BF9358A00FADE46 /* Pretendard-Light.otf */,
+				AFD695902BF9358A00FADE46 /* Pretendard-Medium.otf */,
+				AFD6958D2BF9358A00FADE46 /* Pretendard-Regular.otf */,
+				AFD6958C2BF9358A00FADE46 /* Pretendard-SemiBold.otf */,
+				AFD6958E2BF9358A00FADE46 /* Pretendard-Thin.otf */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -263,7 +282,7 @@
 		AFD35A792BF51E6C00354EE5 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				AFD35A812BF51F6800354EE5 /* MockColors.swift */,
+				AFD35A812BF51F6800354EE5 /* DoYouKnowThisColors.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -319,7 +338,13 @@
 		AFD35A8B2BF5201400354EE5 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				AFD35A932BF5207000354EE5 /* MockRequest.swift */,
+				AFD695722BF92F8000FADE46 /* DTO+GetQuestionsRequest.swift */,
+				AFD695742BF9301E00FADE46 /* DTO+GetDetailQuestionRequest.swift */,
+				AFD6957A2BF931E600FADE46 /* DTO+PostCorrectInfoRequest.swift */,
+				AFD6957E2BF932EA00FADE46 /* DTO+GetCorrectInfoRequest.swift */,
+				AFD695822BF933D100FADE46 /* DTO+GetQuestionDescriptionRequest.swift */,
+				AFD695862BF9347300FADE46 /* DTO+GetRecordListRequest.swift */,
+				AFD6958A2BF9353A00FADE46 /* DTO+CreateMemberRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -327,7 +352,13 @@
 		AFD35A8C2BF5201700354EE5 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				AFD35A912BF5206C00354EE5 /* MockResponse.swift */,
+				AFD695702BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift */,
+				AFD695762BF9306700FADE46 /* DTO+GetDetailQuestionResponse.swift */,
+				AFD695782BF931DB00FADE46 /* DTO+PostCorrectInfoResponse.swift */,
+				AFD6957C2BF9325C00FADE46 /* DTO+GetCorrectInfoResponse.swift */,
+				AFD695802BF9334700FADE46 /* DTO+GetQuestionDescriptionResponse.swift */,
+				AFD695842BF9342300FADE46 /* DTO+GetRecordListResponse.swift */,
+				AFD695882BF9349900FADE46 /* DTO+CreateMemberResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -395,7 +426,7 @@
 				AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */,
 				AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */,
-				367B146C2BF8EEA2000DBA22 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				AFDD052C2BF917B00042B46D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = AFD35A5C2BF51DB700354EE5 /* Products */;
 			projectDirPath = "";
@@ -411,18 +442,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD6959D2BF9358A00FADE46 /* Pretendard-Bold.otf in Resources */,
 				AFD35A682BF51DBC00354EE5 /* Assets.xcassets in Resources */,
-				DD834FAF2BF8E3920014D066 /* Pretendard-Bold.otf in Resources */,
-				DD834FB52BF8E3920014D066 /* Pretendard-ExtraBold.otf in Resources */,
-				DD834FB02BF8E3920014D066 /* Pretendard-ExtraLight.otf in Resources */,
+				AFD695962BF9358A00FADE46 /* Pretendard-Regular.otf in Resources */,
+				AFD6959C2BF9358A00FADE46 /* Pretendard-ExtraBold.otf in Resources */,
+				AFD6959A2BF9358A00FADE46 /* Pretendard-ExtraLight.otf in Resources */,
+				AFD695972BF9358A00FADE46 /* Pretendard-Thin.otf in Resources */,
 				AFD35A6B2BF51DBC00354EE5 /* Base in Resources */,
-				DD834FB72BF8E3920014D066 /* Pretendard-Light.otf in Resources */,
-				DD834FB22BF8E3920014D066 /* Pretendard-Regular.otf in Resources */,
+				AFD6959B2BF9358A00FADE46 /* Pretendard-Light.otf in Resources */,
+				AFD695952BF9358A00FADE46 /* Pretendard-SemiBold.otf in Resources */,
 				AFD35A662BF51DB700354EE5 /* Base in Resources */,
-				DD834FB42BF8E3920014D066 /* Pretendard-SemiBold.otf in Resources */,
-				DD834FB32BF8E3920014D066 /* Pretendard-Black.otf in Resources */,
-				DD834FB62BF8E3920014D066 /* Pretendard-Thin.otf in Resources */,
-				DD834FB12BF8E3920014D066 /* Pretendard-Medium.otf in Resources */,
+				AFD695982BF9358A00FADE46 /* Pretendard-Black.otf in Resources */,
+				AFFE604C2BF92A9E0086A6BE /* slowFonts.ttf in Resources */,
+				AFD695992BF9358A00FADE46 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,33 +465,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD695812BF9334700FADE46 /* DTO+GetQuestionDescriptionResponse.swift in Sources */,
 				AFD35A632BF51DB700354EE5 /* ViewController.swift in Sources */,
 				AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */,
+				AFD6958B2BF9353A00FADE46 /* DTO+CreateMemberRequest.swift in Sources */,
 				367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */,
 				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
 				DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */,
+				AFD695712BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift in Sources */,
 				AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */,
 				2E559B1A2BF911C5000FBE89 /* QuestionViewController.swift in Sources */,
+				AFD695852BF9342300FADE46 /* DTO+GetRecordListResponse.swift in Sources */,
+				AFD695792BF931DB00FADE46 /* DTO+PostCorrectInfoResponse.swift in Sources */,
 				DD834FC22BF8EAAA0014D066 /* UILabel+.swift in Sources */,
 				AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */,
 				DD834FC02BF8E5F00014D066 /* UIView+.swift in Sources */,
+				AFD695832BF933D100FADE46 /* DTO+GetQuestionDescriptionRequest.swift in Sources */,
+				AFD695892BF9349900FADE46 /* DTO+CreateMemberResponse.swift in Sources */,
 				AFD35A8E2BF5202200354EE5 /* APITarget+Namespace.swift in Sources */,
 				AFD35A902BF5204E00354EE5 /* UIColor+.swift in Sources */,
+				AFD695732BF92F8000FADE46 /* DTO+GetQuestionsRequest.swift in Sources */,
 				AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */,
 				AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */,
 				DD834FC92BF903AB0014D066 /* ArchiveViewController.swift in Sources */,
+				AFD695772BF9306700FADE46 /* DTO+GetDetailQuestionResponse.swift in Sources */,
+				AFD6957D2BF9325C00FADE46 /* DTO+GetCorrectInfoResponse.swift in Sources */,
 				DD834FC42BF8EFCF0014D066 /* AnswerViewController.swift in Sources */,
-				AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */,
 				DD834FCB2BF911B10014D066 /* UIFont+.swift in Sources */,
 				DD834FBC2BF8E5B30014D066 /* UIViewController+.swift in Sources */,
-				AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */,
+				AFD6957B2BF931E600FADE46 /* DTO+PostCorrectInfoRequest.swift in Sources */,
+				AFD35A822BF51F6800354EE5 /* DoYouKnowThisColors.swift in Sources */,
 				DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */,
+				AFD695752BF9301E00FADE46 /* DTO+GetDetailQuestionRequest.swift in Sources */,
+				AFD6957F2BF932EA00FADE46 /* DTO+GetCorrectInfoRequest.swift in Sources */,
 				AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */,
 				2E559B1C2BF9166F000FBE89 /* CustomButton.swift in Sources */,
 				AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */,
 				AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */,
 				AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */,
 				AFD35A962BF5207F00354EE5 /* DTO+Namespace.swift in Sources */,
+				AFD695872BF9347300FADE46 /* DTO+GetRecordListRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,14 +731,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		367B146C2BF8EEA2000DBA22 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 14.1.0;
-			};
-		};
 		AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya";
@@ -724,6 +761,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.2.8;
+			};
+		};
+		AFDD052C2BF917B00042B46D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
