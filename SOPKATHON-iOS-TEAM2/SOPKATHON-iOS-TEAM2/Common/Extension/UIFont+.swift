@@ -14,6 +14,7 @@ enum FontName: String {
     case pretendardSemiBold = "Pretendard-SemiBold"
     case pretendardMedium = "Pretendard-Medium"
     case pretendardRegular = "Pretendard-Regular"
+    case slowFonts = "NanumNeuRisNeuRisCe"
 }
 
 extension UIFont {
