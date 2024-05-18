@@ -6,40 +6,44 @@ import SnapKit
 final class SolvedViewController: UIViewController {
     let question =  "모집인원 0명"
     let answer = "1~9명"
-    
     private let titleLabel = UILabel().then {
         $0.text = "오늘의 단어"
+        $0.font = UIFont.font(.pretendardBold, ofSize: 40)
         $0.textColor = .white
     }
     
     private let answerView = UIView().then {
-        $0.backgroundColor = .red
-        $0.layer.cornerRadius = 0.3
+        $0.backgroundColor = .doGreen
     }
     
     private let questionLabel = UILabel().then {
         $0.text = "모집인원 0명"
-        $0.textColor = .white
-    }
-
-    private let label = UILabel().then {
-        $0.text = "은"
+        $0.font = .font(.pretendardBold, ofSize: 40)
         $0.textColor = .white
     }
     
+    private let label = UILabel().then {
+        $0.text = "은"
+        $0.font = .font(.pretendardSemiBold, ofSize: 24)
+        $0.textColor = .white
+    }
     
     private let answerLabel = UILabel().then {
         $0.text = "1~9명"
+        $0.font = .font(.slowFonts, ofSize: 58)
         $0.textColor = .white
     }
     
     private let endLabel = UILabel().then {
         $0.text = "이다."
         $0.textColor = .white
+        $0.font = .font(.pretendardSemiBold, ofSize: 24)
     }
     
     private let descriptionView = UIView().then {
-        $0.backgroundColor = .blue
+        $0.backgroundColor = .black
+        $0.clipsToBounds = true
+        $0.layer.cornerRadius = 20
     }
     
     private let sharedButton = UIButton().then {
@@ -50,7 +54,9 @@ final class SolvedViewController: UIViewController {
     }
     
     private let sharingView = UIView().then {
-        $0.backgroundColor = .blue
+        $0.backgroundColor = .black
+        $0.clipsToBounds = true
+        $0.layer.cornerRadius = 20
     }
     
     override func viewDidLoad() {
@@ -62,7 +68,7 @@ final class SolvedViewController: UIViewController {
     
     
     private func setUI() {
-        view.backgroundColor = .black
+        view.backgroundColor = .doBlack
         setHierarchy()
         setConstraints()
     }
@@ -73,8 +79,8 @@ final class SolvedViewController: UIViewController {
                          descriptionView,
                          sharedButton)
         
-        sharingView.addSubviews(questionLabel, 
-                                label, 
+        sharingView.addSubviews(questionLabel,
+                                label,
                                 answerView,
                                 endLabel)
         
@@ -88,14 +94,14 @@ final class SolvedViewController: UIViewController {
         }
         
         sharingView.snp.makeConstraints {
-            $0.height.equalTo(304)
+            $0.height.equalTo(304.adjusted)
             $0.top.equalTo(titleLabel.snp.bottom).offset(20)
             $0.leading.trailing.equalToSuperview().inset(22)
         }
         
         descriptionView.snp.makeConstraints {
             $0.top.equalTo(sharingView.snp.bottom).offset(10)
-            $0.height.equalTo(191)
+            $0.height.equalTo(191.adjusted)
             $0.leading.trailing.equalToSuperview().inset(22)
         }
         
@@ -116,10 +122,9 @@ final class SolvedViewController: UIViewController {
         }
         
         answerView.snp.makeConstraints {
-            $0.top.equalToSuperview().offset(103)
-            $0.centerX.equalToSuperview()
-            $0.height.equalTo(78)
-            $0.width.equalTo(195)
+            $0.center.equalToSuperview()
+            $0.height.equalTo(78.adjusted)
+            $0.width.equalTo(195.adjusted)
         }
         
         answerLabel.snp.makeConstraints {
@@ -127,8 +132,8 @@ final class SolvedViewController: UIViewController {
         }
         
         endLabel.snp.makeConstraints {
-            $0.top.equalTo(answerView.snp.bottom).offset(24)
-            $0.leading.equalTo(answerView.snp.trailing).offset(10)
+            $0.bottom.equalToSuperview().inset(32)
+            $0.trailing.equalToSuperview().inset(34)
         }
         
     }
@@ -163,6 +168,6 @@ final class SolvedViewController: UIViewController {
             }
         }
     }
-
+    
 }
 
