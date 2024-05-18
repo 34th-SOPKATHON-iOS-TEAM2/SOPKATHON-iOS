@@ -12,9 +12,18 @@ import Then
 
 final class AnswerViewController: UIViewController {
     
+    private let todayWordLabel: UILabel = UILabel().then {
+        $0.font = UIFont.font(.pretendardBold, ofSize: 40)
+        $0.text = "오늘의 단어"
+        $0.textColor = .white
+    }
+    
     private lazy var answerTableView: UITableView = UITableView().then {
-        $0.backgroundColor = .black
+        $0.backgroundColor = .clear
         $0.estimatedRowHeight = UITableView.automaticDimension
+        $0.separatorStyle = .none
+        $0.isScrollEnabled = false
+        $0.register(AnswerTableViewCell.self, forCellReuseIdentifier: AnswerTableViewCell.identifier)
     }
     
 
@@ -27,7 +36,10 @@ final class AnswerViewController: UIViewController {
     }
 
     private func setHierarchy() {
+        view.backgroundColor = UIColor(hexCode: "222222")
+        
         [
+            todayWordLabel,
             answerTableView
         ].forEach() {
             view.addSubview($0)
@@ -40,11 +52,16 @@ final class AnswerViewController: UIViewController {
     }
     
     private func setConstraint() {
+        todayWordLabel.snp.makeConstraints {
+            $0.top.equalToSuperview().offset(70)
+            $0.leading.equalToSuperview().offset(20)
+        }
+        
         answerTableView.snp.makeConstraints {
-            $0.top.equalToSuperview()
-            $0.leading.equalToSuperview()
-            $0.trailing.equalToSuperview()
-            $0.bottom.equalToSuperview()
+            $0.top.equalTo(todayWordLabel.snp.bottom).offset(30)
+            $0.leading.equalToSuperview().offset(20)
+            $0.trailing.equalToSuperview().inset(20)
+            $0.bottom.equalToSuperview().inset(68)
         }
     }
 }
@@ -61,5 +78,9 @@ extension AnswerViewController: UITableViewDelegate, UITableViewDataSource {
         // cell.dataBind(<#T##data: Data##Data#>)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: 화면 전환 코드 작성
     }
 }

@@ -14,13 +14,6 @@ enum FontName: String {
     case pretendardSemiBold = "Pretendard-SemiBold"
     case pretendardMedium = "Pretendard-Medium"
     case pretendardRegular = "Pretendard-Regular"
-    
-    case applegothicRegular = "AppleSDGothicNeo-Regular"
-    case applegothicThin = "AppleSDGothicNeo-Thin"
-    case applegothicLight = "AppleSDGothicNeo-Light"
-    case applegothicMedium = "AppleSDGothicNeo-Medium"
-    case applegothicSemibold = "AppleSDGothicNeo-SemiBold"
-    case applegothicBold = "AppleSDGothicNeo-Bold"
 }
 
 extension UIFont {
