@@ -673,6 +673,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65NSM7Z327;
+				FacebookDisplayName = "${FacebookDisplayName}";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -704,6 +705,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65NSM7Z327;
+				FacebookDisplayName = "${FacebookDisplayName}";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
