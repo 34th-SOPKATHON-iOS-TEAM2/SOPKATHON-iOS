@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 import Then
 
@@ -202,5 +203,16 @@ final class ArchiveViewController: UIViewController {
         greenStarDateLabel.snp.makeConstraints {
             $0.center.equalTo(greenStarImageView)
         }
+    }
+}
+
+struct BasicUIViewControllerRepresentable: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> some UIViewController {
+        let viewController = ArchiveViewController()
+        return viewController
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+        
     }
 }
