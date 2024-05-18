@@ -41,7 +41,7 @@ extension UIColor {
     static var p200: UIColor {
         return UIColor(hexCode: "dfbfff")
     }
-    
+  
     static var doRed: UIColor {
         return UIColor(hexCode: "FF4E00")
     }
@@ -58,4 +58,11 @@ extension UIColor {
         return UIColor(hexCode: "FFC801")
     }
     
+    static var dGreen: UIColor {
+        return UIColor(hexCode: "03a864")
+    }
+    static var dRed: UIColor {
+        return UIColor(hexCode: "ff4e00")
+    }
+  
 }

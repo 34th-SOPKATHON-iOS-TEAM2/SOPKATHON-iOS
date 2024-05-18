@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "secondBlueSticker.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
