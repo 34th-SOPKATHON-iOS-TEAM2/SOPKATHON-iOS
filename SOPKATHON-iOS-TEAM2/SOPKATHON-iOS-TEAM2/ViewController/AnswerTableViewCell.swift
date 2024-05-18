@@ -15,6 +15,8 @@ final class AnswerTableViewCell: UITableViewCell {
     static let identifier = "answerTableViewCell"
     
     public let isCorrect: Bool = true
+    var word = ""
+    var answer = ""
     
     private let backView: UIView = UIView().then {
         $0.backgroundColor = UIColor(hexCode: "000000")
@@ -22,21 +24,21 @@ final class AnswerTableViewCell: UITableViewCell {
         $0.clipsToBounds = true
     }
     
-    private let wordLabel: UILabel = UILabel().then {
+    private lazy var wordLabel: UILabel = UILabel().then {
         $0.textColor = .white
         $0.font = UIFont.font(.pretendardBold, ofSize: 20)
-        $0.text = "nn의 뜻은"
+        $0.text = "\(self.word)의 뜻은"
     }
     
-    private let statusImageView: UIImageView = UIImageView().then {
+    public let statusImageView: UIImageView = UIImageView().then {
         $0.image = .icnCheck
         $0.contentMode = .scaleAspectFit
     }
     
-    private let answerLabel: UILabel = UILabel().then {
+    public lazy var answerLabel: UILabel = UILabel().then {
         $0.font = UIFont.font(.pretendardBold, ofSize: 40)
         $0.textColor = UIColor(hexCode: "0085FF")
-        $0.text = "mm"
+        $0.text = answer
     }
     
     private let endLabel: UILabel = UILabel().then {
@@ -98,6 +100,7 @@ final class AnswerTableViewCell: UITableViewCell {
         answerLabel.snp.makeConstraints {
             $0.centerY.equalTo(statusImageView)
             $0.leading.equalTo(statusImageView.snp.trailing).offset(4)
+            $0.width.equalTo(138)
         }
         
         endLabel.snp.makeConstraints {
@@ -116,7 +119,10 @@ final class AnswerTableViewCell: UITableViewCell {
 
 
 extension AnswerTableViewCell {
-    func dataBind(_ data: Data) {
-        // TODO: 추후 추가
+    func dataBind(_ data: Question) {
+        word = data.question
+        answer = data.answer[1]
+        wordLabel.text = "\(self.word)의 뜻은"
+        answerLabel.text = answer
     }
 }

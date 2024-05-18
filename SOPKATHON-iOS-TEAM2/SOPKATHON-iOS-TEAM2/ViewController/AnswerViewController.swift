@@ -11,6 +11,14 @@ import SnapKit
 import Then
 
 final class AnswerViewController: UIViewController {
+    let questions: [Question] = [
+        Question(question: "모집인원 0명의 뜻은", answer: ["0명", "1~6명"]),
+        Question(question: "명일의 뜻은", answer: ["그저께", "어제", "오늘", "내일"]),
+        Question(question: "사료하다의 뜻은", answer: ["깊이 생각하여 헤아리다.", "사물을 헤아리고 판단하다", "짜거나 엮은 것이 거칠고 성기다", "여럿 가운데서 하나를 구별하여 고르다"]),
+        Question(question: "심심한 사과의 뜻은", answer: ["지루한 마음으로 하는 사과", "진심을 다해 간절한 마음으로 하는 사과", "맛이 좋지 않은 사과", "크기가 작은 과일 사과"]),
+        Question(question: "바야흐로의 뜻은", answer: ["이제 한창", "최고의 경지에 달한 시기"])
+    ]
+    
     
     private let todayWordLabel: UILabel = UILabel().then {
         $0.font = UIFont.font(.pretendardBold, ofSize: 40)
@@ -24,6 +32,11 @@ final class AnswerViewController: UIViewController {
         $0.separatorStyle = .none
         $0.isScrollEnabled = false
         $0.register(AnswerTableViewCell.self, forCellReuseIdentifier: AnswerTableViewCell.identifier)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.isNavigationBarHidden = true
     }
     
 
@@ -75,12 +88,22 @@ extension AnswerViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: AnswerTableViewCell.identifier, for: indexPath) as? AnswerTableViewCell else { return UITableViewCell() }
         
-        // cell.dataBind(<#T##data: Data##Data#>)
+        cell.dataBind(questions[indexPath.row])
+        
+        if indexPath.row == 1 || indexPath.row == 2 || indexPath.row == 4 {
+            cell.answerLabel.textColor = UIColor.doRed
+            cell.statusImageView.image = .icnWarning
+        }
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // TODO: 화면 전환 코드 작성
+        let viewController = SolvedViewController()
+        viewController.titleText = "오늘 푼 퀴즈"
+        viewController.question = questions[indexPath.row].question
+        viewController.answer = questions[indexPath.row].answer[1]
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
 }
