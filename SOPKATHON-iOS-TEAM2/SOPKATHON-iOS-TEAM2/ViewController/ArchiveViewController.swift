@@ -21,9 +21,21 @@ final class ArchiveViewController: UIViewController {
         $0.contentMode = .scaleAspectFill
     }
     
+    private let firstDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
+    }
+    
     private let firstImageView: UIImageView = UIImageView().then {
         // $0.image =
         $0.contentMode = .scaleAspectFill
+    }
+    
+    private let secondDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
     }
     
     private let secondImageView: UIImageView = UIImageView().then {
@@ -31,9 +43,21 @@ final class ArchiveViewController: UIViewController {
         $0.contentMode = .scaleAspectFill
     }
     
+    private let thirdDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
+    }
+    
     private let thirdImageView: UIImageView = UIImageView().then {
         // $0.image =
         $0.contentMode = .scaleAspectFill
+    }
+    
+    private let fourthDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
     }
     
     private let fourthImageView: UIImageView = UIImageView().then {
@@ -41,9 +65,21 @@ final class ArchiveViewController: UIViewController {
         $0.contentMode = .scaleAspectFill
     }
     
+    private let fifthDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
+    }
+    
     private let fifthImageView: UIImageView = UIImageView().then {
         // $0.image =
         $0.contentMode = .scaleAspectFill
+    }
+    
+    private let sixthDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
     }
     
     private let sixthImageView: UIImageView = UIImageView().then {
@@ -51,9 +87,21 @@ final class ArchiveViewController: UIViewController {
         $0.contentMode = .scaleAspectFill
     }
     
+    private let seventhDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
+    }
+    
     private let seventhImageView: UIImageView = UIImageView().then {
         // $0.image =
         $0.contentMode = .scaleAspectFill
+    }
+    
+    private let eighthDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
     }
     
     private let eighthImageView: UIImageView = UIImageView().then {
@@ -61,9 +109,21 @@ final class ArchiveViewController: UIViewController {
         $0.contentMode = .scaleAspectFill
     }
     
+    private let ninthDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
+    }
+    
     private let ninthImageView: UIImageView = UIImageView().then {
         // $0.image =
         $0.contentMode = .scaleAspectFill
+    }
+    
+    private let tenthDateLabel: UILabel = UILabel().then {
+        $0.text = "mm/dd"
+        $0.textColor = .black
+        // $0.font =
     }
     
     private let tenthImageView: UIImageView = UIImageView().then {
@@ -83,15 +143,25 @@ final class ArchiveViewController: UIViewController {
         view.addSubview(scrollView)
         scrollView.addSubview(contentView)
         [
+            firstDateLabel,
             firstImageView,
+            secondDateLabel,
             secondImageView,
+            thirdDateLabel,
             thirdImageView,
+            fourthDateLabel,
             fourthImageView,
+            fifthDateLabel,
             fifthImageView,
+            sixthDateLabel,
             sixthImageView,
+            seventhDateLabel,
             seventhImageView,
+            eighthDateLabel,
             eighthImageView,
+            ninthDateLabel,
             ninthImageView,
+            tenthDateLabel,
             tenthImageView
         ].forEach() {
             contentView.addSubview($0)
