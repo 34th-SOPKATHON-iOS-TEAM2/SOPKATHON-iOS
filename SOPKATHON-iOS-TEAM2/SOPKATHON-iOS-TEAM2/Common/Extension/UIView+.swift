@@ -11,7 +11,7 @@ import UIKit
 
 
 extension UIView {
-    func makeShadow (radius: CGFloat, color: UIColor = .darkGray, offset: CGSize, opacity: Float) {
+    func makeShadow(radius: CGFloat, color: UIColor = .darkGray, offset: CGSize, opacity: Float) {
         layer.shadowColor = color.cgColor
         layer.shadowOffset = offset
         layer.shadowRadius = radius
@@ -50,20 +50,6 @@ extension UIView {
         layer.render(in: context)
         let image = UIGraphicsGetImageFromCurrentImageContext()
         return image
-    }
-    
-    func addBottomBorderWithColor(color: UIColor) {
-        let border = CALayer()
-        border.backgroundColor = color.cgColor
-        border.frame = CGRect(x: 0, y: self.frame.size.height, width: self.frame.size.width, height: 1)
-        self.layer.addSublayer(border)
-    }
-    
-    func addAboveTheBottomBorderWithColor(color: UIColor) {
-        let border = CALayer()
-        border.backgroundColor = color.cgColor
-        border.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 1)
-        self.layer.addSublayer(border)
     }
     
     // 그라데이션 배경 적용
