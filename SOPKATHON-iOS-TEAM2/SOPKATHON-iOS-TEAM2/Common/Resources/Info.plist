@@ -2,6 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MetaID</key>
+	<string>$(Meta_id)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>BASE_URL</key>
+	<string>$(BASE_URL)</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>instagram-stories</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fbAPP-ID</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookClientToken</key>
+    <string>$(FacebookClientToken)</string>
+    <key>FacebookDisplayName</key>
+    <string>SOPKATHON-iOS-TEAM2</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Pretendard-Black.otf</string>
