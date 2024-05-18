@@ -42,6 +42,8 @@
 		DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */; };
 		DD834FC02BF8E5F00014D066 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBF2BF8E5F00014D066 /* UIView+.swift */; };
 		DD834FC22BF8EAAA0014D066 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC12BF8EAAA0014D066 /* UILabel+.swift */; };
+		DD834FC42BF8EFCF0014D066 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC32BF8EFCF0014D066 /* AnswerViewController.swift */; };
+		DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC52BF8F16F0014D066 /* AnswerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		DD834FBF2BF8E5F00014D066 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		DD834FC12BF8EAAA0014D066 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		DD834FC32BF8EFCF0014D066 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		DD834FC52BF8F16F0014D066 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				AFD35A622BF51DB700354EE5 /* ViewController.swift */,
+				DD834FC32BF8EFCF0014D066 /* AnswerViewController.swift */,
+				DD834FC52BF8F16F0014D066 /* AnswerTableViewCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -382,9 +388,11 @@
 				AFD35A902BF5204E00354EE5 /* UIColor+.swift in Sources */,
 				AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */,
 				AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */,
+				DD834FC42BF8EFCF0014D066 /* AnswerViewController.swift in Sources */,
 				AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */,
 				DD834FBC2BF8E5B30014D066 /* UIViewController+.swift in Sources */,
 				AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */,
+				DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */,
 				AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */,
 				AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */,
 				AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */,
