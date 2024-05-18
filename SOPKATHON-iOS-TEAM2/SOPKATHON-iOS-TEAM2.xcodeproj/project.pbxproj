@@ -17,6 +17,7 @@
 		AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */; };
 		AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */; };
 		AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */; };
+
 		AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */; };
 		AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */; };
 		AFD35A632BF51DB700354EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A622BF51DB700354EE5 /* ViewController.swift */; };
@@ -33,12 +34,25 @@
 		AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A932BF5207000354EE5 /* MockRequest.swift */; };
 		AFD35A962BF5207F00354EE5 /* DTO+Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A952BF5207F00354EE5 /* DTO+Namespace.swift */; };
 		AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA12BF525C200354EE5 /* SnapKit */; };
-		AFD35AA42BF525C200354EE5 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA32BF525C200354EE5 /* SnapKit-Dynamic */; };
 		AFD35AA72BF5260800354EE5 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA62BF5260800354EE5 /* Then */; };
 		AFD35AAA2BF5263800354EE5 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = AFD35AA92BF5263800354EE5 /* LookinServer */; };
 		AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AAB2BF526D700354EE5 /* Config.swift */; };
 		AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */; };
 		AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35AB12BF5270700354EE5 /* NetworkResult.swift */; };
+		DD834FAF2BF8E3920014D066 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA62BF8E3920014D066 /* Pretendard-Bold.otf */; };
+		DD834FB02BF8E3920014D066 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA72BF8E3920014D066 /* Pretendard-ExtraLight.otf */; };
+		DD834FB12BF8E3920014D066 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA82BF8E3920014D066 /* Pretendard-Medium.otf */; };
+		DD834FB22BF8E3920014D066 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FA92BF8E3920014D066 /* Pretendard-Regular.otf */; };
+		DD834FB32BF8E3920014D066 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAA2BF8E3920014D066 /* Pretendard-Black.otf */; };
+		DD834FB42BF8E3920014D066 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAB2BF8E3920014D066 /* Pretendard-SemiBold.otf */; };
+		DD834FB52BF8E3920014D066 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAC2BF8E3920014D066 /* Pretendard-ExtraBold.otf */; };
+		DD834FB62BF8E3920014D066 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAD2BF8E3920014D066 /* Pretendard-Thin.otf */; };
+		DD834FB72BF8E3920014D066 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD834FAE2BF8E3920014D066 /* Pretendard-Light.otf */; };
+		DD834FBA2BF8E3AA0014D066 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DD834FB92BF8E3AA0014D066 /* Moya */; };
+		DD834FBC2BF8E5B30014D066 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBB2BF8E5B30014D066 /* UIViewController+.swift */; };
+		DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */; };
+		DD834FC02BF8E5F00014D066 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FBF2BF8E5F00014D066 /* UIView+.swift */; };
+		DD834FC22BF8EAAA0014D066 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD834FC12BF8EAAA0014D066 /* UILabel+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +66,7 @@
 		AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
 		AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+
 		AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPKATHON-iOS-TEAM2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +87,19 @@
 		AFD35AAB2BF526D700354EE5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		AFD35AAF2BF5270200354EE5 /* MoyaLogginPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLogginPlugin.swift; sourceTree = "<group>"; };
 		AFD35AB12BF5270700354EE5 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		DD834FA62BF8E3920014D066 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		DD834FA72BF8E3920014D066 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		DD834FA82BF8E3920014D066 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		DD834FA92BF8E3920014D066 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		DD834FAA2BF8E3920014D066 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		DD834FAB2BF8E3920014D066 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		DD834FAC2BF8E3920014D066 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		DD834FAD2BF8E3920014D066 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		DD834FAE2BF8E3920014D066 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		DD834FBB2BF8E5B30014D066 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		DD834FBF2BF8E5F00014D066 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		DD834FC12BF8EAAA0014D066 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +109,7 @@
 			files = (
 				AFD35AA22BF525C200354EE5 /* SnapKit in Frameworks */,
 				AFD35AA72BF5260800354EE5 /* Then in Frameworks */,
-				AFD35AA42BF525C200354EE5 /* SnapKit-Dynamic in Frameworks */,
+				DD834FBA2BF8E3AA0014D066 /* Moya in Frameworks */,
 				AFD35AAA2BF5263800354EE5 /* LookinServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,15 +120,15 @@
 		AF99AFED2BF7C427004CC4D1 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */,
-				AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */,
-				AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */,
-				AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */,
-				AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */,
-				AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */,
-				AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */,
-				AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */,
-				AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */,
+				DD834FAA2BF8E3920014D066 /* Pretendard-Black.otf */,
+				DD834FA62BF8E3920014D066 /* Pretendard-Bold.otf */,
+				DD834FAC2BF8E3920014D066 /* Pretendard-ExtraBold.otf */,
+				DD834FA72BF8E3920014D066 /* Pretendard-ExtraLight.otf */,
+				DD834FAE2BF8E3920014D066 /* Pretendard-Light.otf */,
+				DD834FA82BF8E3920014D066 /* Pretendard-Medium.otf */,
+				DD834FA92BF8E3920014D066 /* Pretendard-Regular.otf */,
+				DD834FAB2BF8E3920014D066 /* Pretendard-SemiBold.otf */,
+				DD834FAD2BF8E3920014D066 /* Pretendard-Thin.otf */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -110,6 +138,7 @@
 			children = (
 				AFD35A5D2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */,
 				AFD35A5C2BF51DB700354EE5 /* Products */,
+				DD834FB82BF8E3AA0014D066 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +203,10 @@
 			children = (
 				AFD35A8F2BF5204E00354EE5 /* UIColor+.swift */,
 				367B146A2BF8EDEA000DBA22 /* Adjust.swift */,
+				DD834FBB2BF8E5B30014D066 /* UIViewController+.swift */,
+				DD834FBD2BF8E5CC0014D066 /* UIImage+.swift */,
+				DD834FBF2BF8E5F00014D066 /* UIView+.swift */,
+				DD834FC12BF8EAAA0014D066 /* UILabel+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -261,6 +294,13 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
+		DD834FB82BF8E3AA0014D066 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -279,9 +319,9 @@
 			name = "SOPKATHON-iOS-TEAM2";
 			packageProductDependencies = (
 				AFD35AA12BF525C200354EE5 /* SnapKit */,
-				AFD35AA32BF525C200354EE5 /* SnapKit-Dynamic */,
 				AFD35AA62BF5260800354EE5 /* Then */,
 				AFD35AA92BF5263800354EE5 /* LookinServer */,
+				DD834FB92BF8E3AA0014D066 /* Moya */,
 			);
 			productName = "SOPKATHON-iOS-TEAM2";
 			productReference = AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */;
@@ -333,17 +373,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD35A682BF51DBC00354EE5 /* Assets.xcassets in Resources */,
-				AF99AFFD2BF7C43F004CC4D1 /* Pretendard-Bold.otf in Resources */,
-				AF99AFF82BF7C43F004CC4D1 /* Pretendard-Thin.otf in Resources */,
-				AF99AFF92BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf in Resources */,
-				AF99AFFB2BF7C43F004CC4D1 /* Pretendard-SemiBold.otf in Resources */,
-				AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */,
-				AF99AFFC2BF7C43F004CC4D1 /* Pretendard-Black.otf in Resources */,
+				DD834FAF2BF8E3920014D066 /* Pretendard-Bold.otf in Resources */,
+				DD834FB52BF8E3920014D066 /* Pretendard-ExtraBold.otf in Resources */,
+				DD834FB02BF8E3920014D066 /* Pretendard-ExtraLight.otf in Resources */,
 				AFD35A6B2BF51DBC00354EE5 /* Base in Resources */,
-				AF99AFFA2BF7C43F004CC4D1 /* Pretendard-Regular.otf in Resources */,
-				AF99AFF72BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf in Resources */,
+				DD834FB72BF8E3920014D066 /* Pretendard-Light.otf in Resources */,
+				DD834FB22BF8E3920014D066 /* Pretendard-Regular.otf in Resources */,
 				AFD35A662BF51DB700354EE5 /* Base in Resources */,
-				AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */,
+				DD834FB42BF8E3920014D066 /* Pretendard-SemiBold.otf in Resources */,
+				DD834FB32BF8E3920014D066 /* Pretendard-Black.otf in Resources */,
+				DD834FB62BF8E3920014D066 /* Pretendard-Thin.otf in Resources */,
+				DD834FB12BF8E3920014D066 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,13 +398,17 @@
 				AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */,
 				367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */,
 				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
+				DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */,
 				AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */,
+				DD834FC22BF8EAAA0014D066 /* UILabel+.swift in Sources */,
 				AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */,
+				DD834FC02BF8E5F00014D066 /* UIView+.swift in Sources */,
 				AFD35A8E2BF5202200354EE5 /* APITarget+Namespace.swift in Sources */,
 				AFD35A902BF5204E00354EE5 /* UIColor+.swift in Sources */,
 				AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */,
 				AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */,
 				AFD35A922BF5206C00354EE5 /* MockResponse.swift in Sources */,
+				DD834FBC2BF8E5B30014D066 /* UIViewController+.swift in Sources */,
 				AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */,
 				AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */,
 				AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */,
@@ -644,11 +688,6 @@
 			package = AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		AFD35AA32BF525C200354EE5 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AFD35AA02BF525C200354EE5 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
 		AFD35AA62BF5260800354EE5 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AFD35AA52BF5260800354EE5 /* XCRemoteSwiftPackageReference "Then" */;
@@ -658,6 +697,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AFD35AA82BF5263800354EE5 /* XCRemoteSwiftPackageReference "LookinServer" */;
 			productName = LookinServer;
+		};
+		DD834FB92BF8E3AA0014D066 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD35A9F2BF525A900354EE5 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
