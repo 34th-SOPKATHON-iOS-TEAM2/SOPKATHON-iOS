@@ -18,6 +18,8 @@
 		AF99AFFE2BF7C43F004CC4D1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */; };
 		AF99AFFF2BF7C43F004CC4D1 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */; };
 		AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = AF99B0012BF8D59A004CC4D1 /* Moya */; };
+		2E559B1A2BF911C5000FBE89 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E559B192BF911C5000FBE89 /* QuestionViewController.swift */; };
+		2E559B1C2BF9166F000FBE89 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E559B1B2BF9166E000FBE89 /* CustomButton.swift */; };
 		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
 		AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */; };
 		AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD35A602BF51DB700354EE5 /* SceneDelegate.swift */; };
@@ -71,6 +73,8 @@
 		AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
 		AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		2E559B192BF911C5000FBE89 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2E559B1B2BF9166E000FBE89 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
 		AFD35A5B2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPKATHON-iOS-TEAM2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD35A5E2BF51DB700354EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +220,8 @@
 				DD834FC32BF8EFCF0014D066 /* AnswerViewController.swift */,
 				DD834FC52BF8F16F0014D066 /* AnswerTableViewCell.swift */,
 				DD834FC82BF903AB0014D066 /* ArchiveViewController.swift */,
+				2E559B192BF911C5000FBE89 /* QuestionViewController.swift */,
+				2E559B1B2BF9166E000FBE89 /* CustomButton.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -433,6 +439,7 @@
 				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
 				DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */,
 				AFD35A5F2BF51DB700354EE5 /* AppDelegate.swift in Sources */,
+				2E559B1A2BF911C5000FBE89 /* QuestionViewController.swift in Sources */,
 				DD834FC22BF8EAAA0014D066 /* UILabel+.swift in Sources */,
 				AFD35AAC2BF526D700354EE5 /* Config.swift in Sources */,
 				DD834FC02BF8E5F00014D066 /* UIView+.swift in Sources */,
@@ -448,6 +455,7 @@
 				AFD35A822BF51F6800354EE5 /* MockColors.swift in Sources */,
 				DD834FC62BF8F16F0014D066 /* AnswerTableViewCell.swift in Sources */,
 				AFD35A612BF51DB700354EE5 /* SceneDelegate.swift in Sources */,
+				2E559B1C2BF9166F000FBE89 /* CustomButton.swift in Sources */,
 				AFD35A942BF5207000354EE5 /* MockRequest.swift in Sources */,
 				AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */,
 				AFD35A802BF51F6400354EE5 /* MockImages.swift in Sources */,
