@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 
 enum FontName: String {
@@ -14,7 +15,9 @@ enum FontName: String {
     case pretendardSemiBold = "Pretendard-SemiBold"
     case pretendardMedium = "Pretendard-Medium"
     case pretendardRegular = "Pretendard-Regular"
-    
+
+    case slowFonts = "NanumNeuRisNeuRisCe"
+
     case applegothicRegular = "AppleSDGothicNeo-Regular"
     case applegothicThin = "AppleSDGothicNeo-Thin"
     case applegothicLight = "AppleSDGothicNeo-Light"
@@ -31,6 +34,12 @@ extension UIFont {
             return UIFont.systemFont(ofSize: size)
         }
         return customFont
+    }
+}
+
+extension Font {
+    static func custom(_ style: FontName, ofSize size: CGFloat) -> Font {
+        return custom(style.rawValue, size: size)
     }
 }
 
