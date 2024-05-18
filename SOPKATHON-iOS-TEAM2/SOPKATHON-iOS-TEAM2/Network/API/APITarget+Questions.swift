@@ -56,7 +56,7 @@ extension APITarget.Questions: TargetType {
         switch self {
         case .getQuestions:
             return ["Content-Type": "application/json"]
-        case .getDetailQuestions(let getDetailQuestionRequest):
+        case .getDetailQuestions:
             return ["Content-Type": "application/json"]
         case .getQuestionDescrption(let getQuestionDescriptionRequest):
             return [

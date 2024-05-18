@@ -26,9 +26,9 @@ extension APITarget.Attempts: TargetType {
         switch self {
         case .postCorrectInfo:
             return "/attempts"
-        case .getCorrectInfo(let getCorrectInfoRequest):
+        case .getCorrectInfo:
             return "/attempts"
-        case .getRecordList(let getRecordListRequest):
+        case .getRecordList:
             return "/attempts/logs"
         }
     }
@@ -54,14 +54,14 @@ extension APITarget.Attempts: TargetType {
                 parameters: ["date": getCorrectInfoRequest.date],
                 encoding: URLEncoding.default
             )
-        case .getRecordList(let getRecordListRequest):
+        case .getRecordList:
             return .requestPlain
         }
     }
     
     var headers: [String : String]? {
         switch self {
-        case .postCorrectInfo(let postCorrectInfoRequest):
+        case .postCorrectInfo:
             return [
                 "Content-Type": "application/json",
                 "memberId": "1"
