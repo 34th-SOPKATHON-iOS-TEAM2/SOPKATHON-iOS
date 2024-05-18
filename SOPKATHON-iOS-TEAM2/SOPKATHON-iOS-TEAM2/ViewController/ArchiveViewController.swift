@@ -7,8 +7,10 @@
 
 import UIKit
 
+import Then
+
+
 final class ArchiveViewController: UIViewController {
-    
 
     private let scrollView: UIScrollView = UIScrollView()
     
@@ -73,11 +75,11 @@ final class ArchiveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setLayout()
+        setHierarchy()
         setConstraint()
     }
     
-    private func setLayout() {
+    private func setHierarchy() {
         view.addSubview(scrollView)
         scrollView.addSubview(contentView)
         [

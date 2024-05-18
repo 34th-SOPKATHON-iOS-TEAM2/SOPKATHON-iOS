@@ -21,12 +21,12 @@ final class AnswerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setLayout()
+        setHierarchy()
         setDelegate()
         setConstraint()
     }
 
-    private func setLayout() {
+    private func setHierarchy() {
         [
             answerTableView
         ].forEach() {
