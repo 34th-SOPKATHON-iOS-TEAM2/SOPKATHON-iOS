@@ -20,6 +20,11 @@ final class QuestionViewController: UIViewController {
     var index = 0
 
     private var correctAnswersCount: Int = 0
+    private var colorArray: [UIColor] = [UIColor.doGreen,
+                                       UIColor.doRed,
+                                       UIColor.doBule,
+                                       UIColor.doYello,
+                                       UIColor.doGreen]
     
     private let progressBar = UIProgressView(progressViewStyle: .default).then {
         $0.progress = 0.0
@@ -46,7 +51,7 @@ final class QuestionViewController: UIViewController {
     
     private let middleQuestionLabel = UILabel().then {
         $0.text = "?????"
-        $0.font = .font(.pretendardBold, ofSize: 58)
+        $0.font = .font(.slowFonts, ofSize: 58)
         $0.textColor = .white
         $0.textAlignment = .center
         $0.backgroundColor = UIColor(hexCode: "#03A864")
@@ -281,6 +286,7 @@ final class QuestionViewController: UIViewController {
         if index < 4 {
             index += 1
             setStyle()
+            middleQuestionLabel.backgroundColor = colorArray[index]
         } else {
             // PushViewController
             setFinishButton()
