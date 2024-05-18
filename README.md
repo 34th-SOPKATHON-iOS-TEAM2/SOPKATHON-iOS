@@ -1,8 +1,8 @@
 <div align="center">
 
   # 너 이거 알아?-iOS
-  
-  ![서비스 배너](추가해야함)
+  ![Slide 16_9 - 1](https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/68178395/c08b83f7-4ef9-4738-8202-21c267c26d3f)
+
   <br><br>
   <img src="https://img.shields.io/badge/Xcode-15.4-blue?logo=Xcode"/>
   <img src="https://img.shields.io/badge/Swift-5.0-red?logo=swift"/>
@@ -24,7 +24,11 @@
 <br>
 
 ## 🍎 iOS Members 🍎
+### ✨ 요랬는데
 ![KakaoTalk_Photo_2024-05-18-22-31-23](https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/49385546/33be136f-c86e-486e-8716-18f17ac2d7f2)
+### 🔥 요래됐습니다~
+![IMG_3324](https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/68178395/33d649e7-5053-41a2-922b-3bf496c200ec)
+
 |[지석](https://github.com/sozohoy)|[형근](https://github.com/Chandrarla)|[지희](https://github.com/Zoe0929)|[유진](https://github.com/youz2me)|
 |:-----:|:-----:|:-----:|:-----:|
 <img width="250px" src="https://avatars.githubusercontent.com/u/49385546?v=4"/> | <img width="250px" src="https://avatars.githubusercontent.com/u/81503607?v=4"/> | <img width="250px" src="https://avatars.githubusercontent.com/u/68178395?v=4"/> | <img width="250px" src="https://avatars.githubusercontent.com/u/80394340?v=4"/> |
