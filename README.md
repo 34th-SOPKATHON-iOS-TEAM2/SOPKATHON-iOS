@@ -1,5 +1,9 @@
 <div align="center">
 
+https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/49385546/ccb8dc61-926e-47b1-9cb4-3822100ae308
+
+
+
   # 너 이거 알아?-iOS
   ![Slide 16_9 - 1](https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/68178395/c08b83f7-4ef9-4738-8202-21c267c26d3f)
 
