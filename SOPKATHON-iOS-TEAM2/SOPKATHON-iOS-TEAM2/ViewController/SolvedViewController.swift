@@ -6,6 +6,11 @@ import SnapKit
 final class SolvedViewController: UIViewController {
     let question =  "모집인원 0명"
     let answer = "1~9명"
+    var isShared = false {
+        didSet {
+            setShareView()
+        }
+    }
     
     private let backButton = UIButton().then {
         $0.setImage(UIImage(systemName: "chevron.left")?.withTintColor(.white, renderingMode: .alwaysOriginal), for: .normal)
@@ -13,38 +18,9 @@ final class SolvedViewController: UIViewController {
     
     private let titleLabel = UILabel().then {
         $0.text = "이전에 푼 퀴즈"
+        $0.numberOfLines = 2
         $0.font = UIFont.font(.pretendardBold, ofSize: 40)
         $0.textColor = .white
-    }
-    
-    private let answerView = UIView().then {
-        $0.backgroundColor = .doGreen
-        
-        $0.transform = CGAffineTransform(rotationAngle: -.pi / 180 * 6)
-    }
-    
-    private let questionLabel = UILabel().then {
-        $0.text = "모집인원 0명"
-        $0.font = .font(.pretendardBold, ofSize: 40)
-        $0.textColor = .white
-    }
-    
-    private let label = UILabel().then {
-        $0.text = "은"
-        $0.font = .font(.pretendardSemiBold, ofSize: 24)
-        $0.textColor = .white
-    }
-    
-    private let answerLabel = UILabel().then {
-        $0.text = "1~9명"
-        $0.font = .font(.slowFonts, ofSize: 58)
-        $0.textColor = .white
-    }
-    
-    private let endLabel = UILabel().then {
-        $0.text = "이다."
-        $0.textColor = .white
-        $0.font = .font(.pretendardSemiBold, ofSize: 24)
     }
     
     private let descriptionView = UIView().then {
@@ -61,11 +37,7 @@ final class SolvedViewController: UIViewController {
         $0.layer.cornerRadius = 25
     }
     
-    private let sharingView = UIView().then {
-        $0.backgroundColor = .black
-        $0.clipsToBounds = true
-        $0.layer.cornerRadius = 20
-    }
+    private let answerView = SharedInstaView(title: "모집인원 0명", description: "1명 - 9명")
     
     private let descriptionTitleLabel = UILabel().then {
         $0.text = "친절한 해설지"
@@ -82,6 +54,14 @@ final class SolvedViewController: UIViewController {
         $0.textAlignment = .center
     }
     
+    private let sharedView = UIView().then {
+        $0.backgroundColor = .doBlack
+    }
+    
+    private let imageview = UIImageView(image: .design3)
+    private let logoImageView = UIImageView(image: .frame1171276036)
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
@@ -97,20 +77,17 @@ final class SolvedViewController: UIViewController {
     }
     
     private func setHierarchy() {
-        view.addSubviews(backButton,
+        view.addSubviews(imageview,
+                         backButton,
                          titleLabel,
-                         sharingView,
+                         answerView,
                          descriptionView,
+                         logoImageView,
                          sharedButton)
         
-        sharingView.addSubviews(questionLabel,
-                                label,
-                                answerView,
-                                endLabel)
         
-        answerView.addSubview(answerLabel)
         descriptionView.addSubviews(descriptionTitleLabel,
-                                   descriptionLabel)
+                                    descriptionLabel)
     }
     
     private func setConstraints() {
@@ -126,14 +103,14 @@ final class SolvedViewController: UIViewController {
             $0.centerY.equalTo(backButton)
         }
         
-        sharingView.snp.makeConstraints {
+        answerView.snp.makeConstraints {
             $0.height.equalTo(304)
             $0.top.equalTo(titleLabel.snp.bottom).offset(20)
             $0.leading.trailing.equalToSuperview().inset(22)
         }
         
         descriptionView.snp.makeConstraints {
-            $0.top.equalTo(sharingView.snp.bottom).offset(10)
+            $0.top.equalTo(answerView.snp.bottom).offset(10)
             $0.height.equalTo(191)
             $0.leading.trailing.equalToSuperview().inset(22)
         }
@@ -142,31 +119,6 @@ final class SolvedViewController: UIViewController {
             $0.height.equalTo(50)
             $0.leading.trailing.equalToSuperview().inset(10)
             $0.top.equalTo(descriptionView.snp.bottom).offset(30)
-        }
-        
-        questionLabel.snp.makeConstraints {
-            $0.top.equalToSuperview().offset(24)
-            $0.leading.equalToSuperview().offset(24)
-        }
-        
-        label.snp.makeConstraints {
-            $0.bottom.equalTo(questionLabel.snp.bottom)
-            $0.leading.equalTo(questionLabel.snp.trailing).offset(3)
-        }
-        
-        answerView.snp.makeConstraints {
-            $0.center.equalToSuperview()
-            $0.height.equalTo(78.adjusted)
-            $0.width.equalTo(195.adjusted)
-        }
-        
-        answerLabel.snp.makeConstraints {
-            $0.center.equalToSuperview()
-        }
-        
-        endLabel.snp.makeConstraints {
-            $0.bottom.equalToSuperview().inset(32)
-            $0.trailing.equalToSuperview().inset(34)
         }
         
         descriptionTitleLabel.snp.makeConstraints {
@@ -180,20 +132,48 @@ final class SolvedViewController: UIViewController {
             $0.top.equalTo(descriptionTitleLabel.snp.bottom).offset(32.adjusted)
         }
         
+        imageview.snp.makeConstraints {
+            $0.top.equalToSuperview().offset(59)
+            $0.trailing.equalToSuperview().offset(100)
+        }
+        
+        logoImageView.snp.makeConstraints {
+            $0.top.equalTo(answerView.snp.bottom).offset(68)
+            $0.centerX.equalToSuperview()
+        }
+        
+        setShareView()
     }
+    
+    func setShareView() {
+        descriptionView.isHidden = isShared
+        sharedButton.isHidden = isShared
+        backButton.isHidden = isShared
+        imageview.isHidden = !isShared
+        logoImageView.isHidden = !isShared
+        if isShared {
+            titleLabel.text = "너\n이거 알아?"
+            answerView.snp.makeConstraints {
+                $0.center.equalToSuperview()
+            }
+        }
+    }
+    
     
     func addTarget () {
         sharedButton.addTarget(self, action: #selector(instagramButtonTapped), for: .touchUpInside)
     }
     
     @objc func instagramButtonTapped() {
+        isShared.toggle()
+        setShareView()
         if let storyShareURL = URL(string: "instagram-stories://share?source_application=" + "955820726285983") {
             
             if UIApplication.shared.canOpenURL(storyShareURL) {
                 let renderer = UIGraphicsImageRenderer(size: view.bounds.size)
                 
                 let renderImage = renderer.image { _ in
-                    sharingView.drawHierarchy(in: sharingView.bounds, afterScreenUpdates: true)
+                    view.drawHierarchy(in: view.bounds, afterScreenUpdates: true)
                 }
                 
                 guard let imageData = renderImage.pngData() else {return}
@@ -202,6 +182,13 @@ final class SolvedViewController: UIViewController {
                     "com.instagram.sharedSticker.backgroundTopColor": "#222222",
                     "com.instagram.sharedSticker.backgroundBottomColor": "#111111"
                 ]
+                isShared.toggle()
+                titleLabel.text = "이전에 푼 문제"
+                answerView.snp.remakeConstraints {
+                    $0.height.equalTo(304)
+                    $0.top.equalTo(titleLabel.snp.bottom).offset(20)
+                    $0.leading.trailing.equalToSuperview().inset(22)
+                }
                 let pasteboardOptions = [UIPasteboard.OptionsKey.expirationDate: Date().addingTimeInterval(300)]
                 UIPasteboard.general.setItems([pasteboardItems], options: pasteboardOptions)
                 UIApplication.shared.open(storyShareURL, options: [:], completionHandler: nil)
