@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3663C2812BF915C3004C07AC /* SolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663C2802BF915C3004C07AC /* SolvedViewController.swift */; };
+		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
+		AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6565462BF8EED4001D7D22 /* HomeView.swift */; };
+		AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = AF99B0012BF8D59A004CC4D1 /* Moya */; };
 		2E559B1A2BF911C5000FBE89 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E559B192BF911C5000FBE89 /* QuestionViewController.swift */; };
 		2E559B1C2BF9166F000FBE89 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E559B1B2BF9166E000FBE89 /* CustomButton.swift */; };
+		2E5F7A5A2BF933E600253A72 /* DoYouKnowThisColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F7A592BF933E600253A72 /* DoYouKnowThisColors.swift */; };
 		367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B146A2BF8EDEA000DBA22 /* Adjust.swift */; };
+		AF6565472BF8EED4001D7D22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6565462BF8EED4001D7D22 /* HomeView.swift */; };
+		AF99B0022BF8D59A004CC4D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = AF99B0012BF8D59A004CC4D1 /* Moya */; };
 		AF2B55F42BF939B700F382A0 /* APITarget+Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55F32BF939B700F382A0 /* APITarget+Members.swift */; };
 		AF2B55FE2BF93B7800F382A0 /* APITarget+Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55FD2BF93B7800F382A0 /* APITarget+Questions.swift */; };
 		AF2B56002BF93F9E00F382A0 /* APITarget+Attempts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55FF2BF93F9E00F382A0 /* APITarget+Attempts.swift */; };
@@ -70,9 +77,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3663C2802BF915C3004C07AC /* SolvedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvedViewController.swift; sourceTree = "<group>"; };
+		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
+		AF6565462BF8EED4001D7D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF99AFEE2BF7C43F004CC4D1 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraLight.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		AF99AFEF2BF7C43F004CC4D1 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Thin.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		AF99AFF02BF7C43F004CC4D1 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-ExtraBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		AF99AFF12BF7C43F004CC4D1 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Regular.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		AF99AFF22BF7C43F004CC4D1 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-SemiBold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		AF99AFF32BF7C43F004CC4D1 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Black.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Black.otf"; sourceTree = "<group>"; };
+		AF99AFF42BF7C43F004CC4D1 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Bold.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		AF99AFF52BF7C43F004CC4D1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Light.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Light.otf"; sourceTree = "<group>"; };
+		AF99AFF62BF7C43F004CC4D1 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pretendard-Medium.otf"; path = "../../../../../../../Downloads/Pretendard-1.3.9/public/static/Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		2E559B192BF911C5000FBE89 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		2E559B1B2BF9166E000FBE89 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2E5F7A592BF933E600253A72 /* DoYouKnowThisColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoYouKnowThisColors.swift; sourceTree = "<group>"; };
+		2E5F7A5B2BF9372500253A72 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		367B146A2BF8EDEA000DBA22 /* Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjust.swift; sourceTree = "<group>"; };
+		AF6565462BF8EED4001D7D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AF2B55F32BF939B700F382A0 /* APITarget+Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Members.swift"; sourceTree = "<group>"; };
 		AF2B55FD2BF93B7800F382A0 /* APITarget+Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Questions.swift"; sourceTree = "<group>"; };
 		AF2B55FF2BF93F9E00F382A0 /* APITarget+Attempts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APITarget+Attempts.swift"; sourceTree = "<group>"; };
@@ -180,6 +202,7 @@
 		AFD35A522BF51DB700354EE5 = {
 			isa = PBXGroup;
 			children = (
+				2E5F7A5B2BF9372500253A72 /* Config.xcconfig */,
 				AFD35A5D2BF51DB700354EE5 /* SOPKATHON-iOS-TEAM2 */,
 				AFD35A5C2BF51DB700354EE5 /* Products */,
 				AF99B0002BF8D59A004CC4D1 /* Frameworks */,
@@ -236,6 +259,7 @@
 				DD834FC82BF903AB0014D066 /* ArchiveViewController.swift */,
 				2E559B192BF911C5000FBE89 /* QuestionViewController.swift */,
 				2E559B1B2BF9166E000FBE89 /* CustomButton.swift */,
+				3663C2802BF915C3004C07AC /* SolvedViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -468,6 +492,7 @@
 				AFD35AB02BF5270200354EE5 /* MoyaLogginPlugin.swift in Sources */,
 				AFD6958B2BF9353A00FADE46 /* DTO+CreateMemberRequest.swift in Sources */,
 				367B146B2BF8EDEA000DBA22 /* Adjust.swift in Sources */,
+				3663C2812BF915C3004C07AC /* SolvedViewController.swift in Sources */,
 				AFD35A882BF51F7900354EE5 /* MockModel.swift in Sources */,
 				DD834FBE2BF8E5CC0014D066 /* UIImage+.swift in Sources */,
 				AFD695712BF92F7600FADE46 /* DTO+GetQuestionsResponse.swift in Sources */,
@@ -487,6 +512,7 @@
 				AFD695732BF92F8000FADE46 /* DTO+GetQuestionsRequest.swift in Sources */,
 				AFD35AB22BF5270700354EE5 /* NetworkResult.swift in Sources */,
 				AFD35A7E2BF51F5F00354EE5 /* MockFonts.swift in Sources */,
+				2E5F7A5A2BF933E600253A72 /* DoYouKnowThisColors.swift in Sources */,
 				DD834FC92BF903AB0014D066 /* ArchiveViewController.swift in Sources */,
 				AFD695772BF9306700FADE46 /* DTO+GetDetailQuestionResponse.swift in Sources */,
 				AFD6957D2BF9325C00FADE46 /* DTO+GetCorrectInfoResponse.swift in Sources */,
@@ -532,6 +558,7 @@
 /* Begin XCBuildConfiguration section */
 		AFD35A6D2BF51DBC00354EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5F7A5B2BF9372500253A72 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -595,6 +622,7 @@
 		};
 		AFD35A6E2BF51DBC00354EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5F7A5B2BF9372500253A72 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -651,12 +679,15 @@
 		};
 		AFD35A702BF51DBC00354EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5F7A5B2BF9372500253A72 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "${BASE_URL}";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8R3N359429;
+				DEVELOPMENT_TEAM = 65NSM7Z327;
+				FacebookDisplayName = "${FacebookDisplayName}";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -680,12 +711,15 @@
 		};
 		AFD35A712BF51DBC00354EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5F7A5B2BF9372500253A72 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "${BASE_URL}";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8R3N359429;
+				DEVELOPMENT_TEAM = 65NSM7Z327;
+				FacebookDisplayName = "${FacebookDisplayName}";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
