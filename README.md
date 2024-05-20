@@ -1,7 +1,6 @@
 <div align="center">
 
-https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/49385546/ccb8dc61-926e-47b1-9cb4-3822100ae308
-
+https://github.com/34th-SOPKATHON-iOS-TEAM2/SOPKATHON-iOS/assets/49385546/46641da3-d593-4f4d-99a5-cd885ecd70b6
 
 
   # 너 이거 알아?-iOS
