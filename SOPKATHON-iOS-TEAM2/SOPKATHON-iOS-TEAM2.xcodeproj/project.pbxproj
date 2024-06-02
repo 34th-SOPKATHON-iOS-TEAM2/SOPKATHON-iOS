@@ -726,6 +726,7 @@
 				FacebookDisplayName = "${FacebookDisplayName}";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "너 이거 알아?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -759,6 +760,7 @@
 				FacebookDisplayName = "${FacebookDisplayName}";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SOPKATHON-iOS-TEAM2/Common/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "너 이거 알아?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
