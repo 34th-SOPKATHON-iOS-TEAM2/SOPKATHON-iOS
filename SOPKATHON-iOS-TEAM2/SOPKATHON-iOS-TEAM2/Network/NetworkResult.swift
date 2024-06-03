@@ -7,6 +7,8 @@
 
 import Foundation
 
+import Moya
+
 enum NetworkResult<T> {
     case success(T)               // 서버 통신 성공했을 때,
     case requestErr               // 요청 에러 발생했을 때,
@@ -31,4 +33,10 @@ enum NetworkResult<T> {
             print("네트워크 오류입니다")
         }
     }
+}
+
+
+class Providers {
+    static let questionProvier = MoyaProvider<APITarget.Questions>(plugins: [MoyaLoggingPlugin()])
+    static let answerProvider = MoyaProvider<APITarget.Attempts>(plugins: [MoyaLoggingPlugin()])
 }
