@@ -100,10 +100,9 @@ extension AnswerViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // TODO: 화면 전환 코드 작성
-        let viewController = SolvedViewController()
-        viewController.titleText = "오늘 푼 퀴즈"
-        viewController.question = questions[indexPath.row].question
-        viewController.answer = questions[indexPath.row].answer[1]
-        self.navigationController?.pushViewController(viewController, animated: true)
+        let viewModel = SolvedViewModel(networkService: QuestionsNetworkService(), questionId: indexPath.row + 1)
+        let solvedViewController = SolvedViewController()
+        solvedViewController.viewModel = viewModel
+        self.navigationController?.pushViewController(solvedViewController, animated: true)
     }
 }
