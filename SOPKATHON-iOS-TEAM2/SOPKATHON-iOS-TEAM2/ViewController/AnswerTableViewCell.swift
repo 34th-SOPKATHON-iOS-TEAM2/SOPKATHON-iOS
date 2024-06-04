@@ -119,7 +119,7 @@ final class AnswerTableViewCell: UITableViewCell {
 
 
 extension AnswerTableViewCell {
-    func dataBind(_ data: Question) {
+    func dataBind(_ data: SimpleQuestion) {
         word = data.question
         answer = data.answer[1]
         wordLabel.text = "\(self.word)의 뜻은"

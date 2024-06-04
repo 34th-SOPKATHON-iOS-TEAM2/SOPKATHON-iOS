@@ -1,20 +1,22 @@
 import UIKit
+
+import Moya
 import SnapKit
 import Then
 
-struct Question {
+struct SimpleQuestion {
     let question: String
     let answer: [String]
 }
 
 final class QuestionViewController: UIViewController {
     
-    let questions: [Question] = [
-        Question(question: "모집인원 0명의 뜻은", answer: ["0명", "1~6명"]),
-        Question(question: "명일의 뜻은", answer: ["그저께", "어제", "오늘", "내일"]),
-        Question(question: "사료하다의 뜻은", answer: ["깊이 생각하여 헤아리다.", "사물을 헤아리고 판단하다", "짜거나 엮은 것이 거칠고 성기다", "여럿 가운데서 하나를 구별하여 고르다"]),
-        Question(question: "심심한 사과의 뜻은", answer: ["지루한 마음으로 하는 사과", "진심을 다해 간절한 마음으로 하는 사과", "맛이 좋지 않은 사과", "크기가 작은 과일 사과"]),
-        Question(question: "바야흐로의 뜻은", answer: ["이제 한창", "최고의 경지에 달한 시기"])
+    let questions: [SimpleQuestion] = [
+        SimpleQuestion(question: "모집인원 0명의 뜻은", answer: ["0명", "1~6명"]),
+        SimpleQuestion(question: "명일의 뜻은", answer: ["그저께", "어제", "오늘", "내일"]),
+        SimpleQuestion(question: "사료하다의 뜻은", answer: ["깊이 생각하여 헤아리다.", "사물을 헤아리고 판단하다", "짜거나 엮은 것이 거칠고 성기다", "여럿 가운데서 하나를 구별하여 고르다"]),
+        SimpleQuestion(question: "심심한 사과의 뜻은", answer: ["지루한 마음으로 하는 사과", "진심을 다해 간절한 마음으로 하는 사과", "맛이 좋지 않은 사과", "크기가 작은 과일 사과"]),
+        SimpleQuestion(question: "바야흐로의 뜻은", answer: ["이제 한창", "최고의 경지에 달한 시기"])
     ]
     
     var index = 0
@@ -282,7 +284,8 @@ final class QuestionViewController: UIViewController {
         }
     }
     
-    @objc func nextButtonTapped() {
+    @objc 
+    func nextButtonTapped() {
         if index < 4 {
             index += 1
             setStyle()
