@@ -17,6 +17,7 @@ struct MainCard: Identifiable {
 
 struct HomeView: View {
 
+    @StateObject var homeVM = HomeViewModel()
     @State var mainCards: [MainCard] = [
         MainCard(id: 0, isOpened: true, word: "모집인원 0명", color: Color(uiColor: .dGreen), date: "Today"),
         MainCard(id: 1, isOpened: false, word: "심심한 사과", color: Color(uiColor: .dRed), date: "Yesterday"),

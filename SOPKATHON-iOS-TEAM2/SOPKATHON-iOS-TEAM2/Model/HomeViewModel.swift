@@ -10,25 +10,28 @@ import SwiftUI
 import Moya
 
 
-class HomeViewModel: ObservableObject {
+final class HomeViewModel: ObservableObject {
     @State var homeQuestions: [DTO.GetQuestionsResponse.Question] = []
+    private let networkService: QuestionsNetworkService
     
-    func getQuestionHome() {
-        Providers.questionProvier.request(.getQuestions) { result in
+    init(networkService: QuestionsNetworkService = QuestionsNetworkService()) {
+        self.networkService = networkService
+        self.fetchQuestions(completion: {  })
+    }
+
+    
+    /// 질문 목록 가져오기
+    func fetchQuestions(completion: @escaping () -> Void) {
+        networkService.getQuestions { [weak self] result in
             switch result {
             case .success(let response):
-                do {
-                    let decoder = JSONDecoder()
-                    let response = try decoder.decode(DTO.GetQuestionsResponse.self, from: response.data)
-                    self.homeQuestions = response.data
-                } catch {
-                    print("Decoding error: \(error)")
+                response.data.forEach { question in
+                    
                 }
-                
-                
             case .failure(let error):
                 print(error)
             }
+            completion()
         }
     }
 }
