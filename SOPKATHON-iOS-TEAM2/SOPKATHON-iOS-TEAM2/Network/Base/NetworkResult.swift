@@ -7,6 +7,8 @@
 
 import Foundation
 
+import Moya
+
 enum NetworkResult<T> {
     case success(T)               // 서버 통신 성공했을 때,
     case requestErr               // 요청 에러 발생했을 때,

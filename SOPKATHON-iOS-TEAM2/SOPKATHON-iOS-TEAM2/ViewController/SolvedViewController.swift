@@ -4,13 +4,8 @@ import Then
 import SnapKit
 
 final class SolvedViewController: UIViewController {
-    var titleText = ""
-    var question =  "모집인원 0명"
-    var answer = "1~9명" {
-        didSet{
-            answerView.set(title: question, des: answer)
-        }
-    }
+    var viewModel = SolvedViewModel(networkService: QuestionsNetworkService(), questionId: 0)
+    
     var isShared = false {
         didSet {
             setShareView()
@@ -59,7 +54,7 @@ final class SolvedViewController: UIViewController {
         $0.textAlignment = .center
     }
     
-    private let sharedView = UIView().then {
+    private var sharedView = UIView().then {
         $0.backgroundColor = .doBlack
     }
     
@@ -72,9 +67,19 @@ final class SolvedViewController: UIViewController {
         
         setUI()
         addTarget()
-        // Do any additional setup after loading the view.
+        bindVM()
     }
     
+    private func bindVM() {
+        viewModel.onUpdate = { [weak self] in
+            guard let self = self else { return }
+            // UI 업데이트
+            self.sharedView = SharedInstaView(title: self.viewModel.questionTitle,
+                                              description: self.viewModel.answerText)
+            self.descriptionLabel.text = self.viewModel.questionDescription
+        }
+    }
+
     
     private func setUI() {
         view.backgroundColor = .doBlack
@@ -168,21 +173,22 @@ final class SolvedViewController: UIViewController {
     
     func addTarget () {
         sharedButton.addTarget(self, action: #selector(instagramButtonTapped), for: .touchUpInside)
-        backButton.addTarget(self, action: #selector(button), for: .touchUpInside)
+        backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
     }
-    
-    func bindData() {
-        titleLabel.text = titleText
-    }
-    
-    @objc func button() {
+}
+
+
+extension SolvedViewController {
+    @objc
+    func backButtonTapped() {
         self.navigationController?.popViewController(animated: true)
     }
     
-    @objc func instagramButtonTapped() {
+    @objc
+    func instagramButtonTapped() {
         isShared.toggle()
         setShareView()
-        if let storyShareURL = URL(string: "instagram-stories://share?source_application=" + "955820726285983") {
+        if let storyShareURL = URL(string: "instagram-stories://share?source_application=" ) {
             
             if UIApplication.shared.canOpenURL(storyShareURL) {
                 let renderer = UIGraphicsImageRenderer(size: view.bounds.size)
@@ -209,11 +215,9 @@ final class SolvedViewController: UIViewController {
                 UIApplication.shared.open(storyShareURL, options: [:], completionHandler: nil)
             } else {
                 let url = URL(string: "https://apps.apple.com/kr/app/instagram/id389801252")!
-                print("엥?")
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
         }
     }
     
 }
-

@@ -10,7 +10,7 @@ import Foundation
 extension DTO {
     struct GetDetailQuestionResponse: Codable {
         let status: Int
-//        let data
+        let data : DetailQuestion
     }
 }
 
@@ -18,13 +18,18 @@ extension DTO.GetDetailQuestionResponse {
     struct DetailQuestion: Codable {
         let type: Int
         let question: String
-        let options: [Choice]
-        let nextQuestionId: Int
+        let options: [Option]
+        let nextQuestionID: Int
+
+        enum CodingKeys: String, CodingKey {
+            case type, question, options
+            case nextQuestionID = "nextQuestionId"
+        }
     }
 }
 
 extension DTO.GetDetailQuestionResponse.DetailQuestion {
-    struct Choice: Codable {
+    struct Option: Codable {
         let option: String
         let isAnswer: Bool
     }

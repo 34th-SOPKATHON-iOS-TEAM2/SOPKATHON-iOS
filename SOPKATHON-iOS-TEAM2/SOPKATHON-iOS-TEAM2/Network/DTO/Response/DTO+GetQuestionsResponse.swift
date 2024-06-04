@@ -9,7 +9,7 @@ import Foundation
 
 extension DTO {
     struct GetQuestionsResponse: Codable {
-        let statusCode: Int
+        let status: Int
         let data: [Question]
     }
 }

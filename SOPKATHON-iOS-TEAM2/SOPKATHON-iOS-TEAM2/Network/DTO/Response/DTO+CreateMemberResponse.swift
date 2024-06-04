@@ -10,13 +10,13 @@ import Foundation
 extension DTO {
     struct CreateMemberResponse: Codable {
         let status: Int
+        let data: MemberInfo
     }
 }
 
 extension DTO.CreateMemberResponse {
     struct MemberInfo: Codable {
-        let created: Bool
-        let memberId: Int
+        let id: Int
         let name: String
     }
 }

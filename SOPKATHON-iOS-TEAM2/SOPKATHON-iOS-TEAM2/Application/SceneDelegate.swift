@@ -6,15 +6,25 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        let isLogin = UserDefaults.standard.bool(forKey: "isLogin")
+        var rootViewController: UIViewController
         guard let windowScene = scene as? UIWindowScene else { return }
         self.window = UIWindow(windowScene: windowScene)
-        let navigationController = UINavigationController(rootViewController: ArchiveViewController())
+        
+        if isLogin {
+            rootViewController = UIHostingController(rootView: HomeView())
+        } else {
+            rootViewController = ViewController()
+        }
+        
+        let navigationController = UINavigationController(rootViewController: rootViewController)
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
     }
