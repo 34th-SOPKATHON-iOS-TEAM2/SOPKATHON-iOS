@@ -34,9 +34,3 @@ enum NetworkResult<T> {
         }
     }
 }
-
-
-class Providers {
-    static let questionProvier = MoyaProvider<APITarget.Questions>(plugins: [MoyaLoggingPlugin()])
-    static let answerProvider = MoyaProvider<APITarget.Attempts>(plugins: [MoyaLoggingPlugin()])
-}
